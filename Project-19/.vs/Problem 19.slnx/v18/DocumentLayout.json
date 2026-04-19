@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "I:\\Programming\\AboHuhaed\\#5\\Problem 19\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DC534351-BD6D-4FAF-9131-159E632C7B5D}|Problem 19\\Problem 19.vcxproj|I:\\Programming\\AboHuhaed\\#5\\Problem 19\\Problem 19\\Problem 19.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DC534351-BD6D-4FAF-9131-159E632C7B5D}|Problem 19\\Problem 19.vcxproj|solutionrelative:Problem 19\\Problem 19.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Problem 19.cpp",
+              "DocumentMoniker": "I:\\Programming\\AboHuhaed\\#5\\Problem 19\\Problem 19\\Problem 19.cpp",
+              "RelativeDocumentMoniker": "Problem 19\\Problem 19.cpp",
+              "ToolTip": "I:\\Programming\\AboHuhaed\\#5\\Problem 19\\Problem 19\\Problem 19.cpp",
+              "RelativeToolTip": "Problem 19\\Problem 19.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-25T09:00:42.715Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "I:\\UINVERSITY\\data structure\\session 5\\Problem 48\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{43090EDD-7E7D-49E1-B73A-6DEAF38C1119}|Problem 48\\Problem 48.vcxproj|I:\\UINVERSITY\\data structure\\session 5\\Problem 48\\Problem 48\\Problem 48.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43090EDD-7E7D-49E1-B73A-6DEAF38C1119}|Problem 48\\Problem 48.vcxproj|solutionrelative:Problem 48\\Problem 48.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Problem 48.cpp",
+              "DocumentMoniker": "I:\\UINVERSITY\\data structure\\session 5\\Problem 48\\Problem 48\\Problem 48.cpp",
+              "RelativeDocumentMoniker": "Problem 48\\Problem 48.cpp",
+              "ToolTip": "I:\\UINVERSITY\\data structure\\session 5\\Problem 48\\Problem 48\\Problem 48.cpp",
+              "RelativeToolTip": "Problem 48\\Problem 48.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-12T11:22:25.254Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+﻿  Problem 47.cpp
+I:\UINVERSITY\data structure\session 5\Problem 47\Problem 47\Problem 47.cpp(7,16): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+I:\UINVERSITY\data structure\session 5\Problem 47\Problem 47\Problem 47.cpp(14,22): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  Problem 47.vcxproj -> I:\UINVERSITY\data structure\session 5\Problem 47\x64\Debug\Problem 47.exe

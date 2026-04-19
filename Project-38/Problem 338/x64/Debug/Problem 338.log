@@ -1,0 +1,3 @@
+﻿  Problem 338.cpp
+I:\Programming\AboHuhaed\#5\Problem 338\Problem 338\Problem 338.cpp(10,11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Problem 338.vcxproj -> I:\Programming\AboHuhaed\#5\Problem 338\x64\Debug\Problem 338.exe

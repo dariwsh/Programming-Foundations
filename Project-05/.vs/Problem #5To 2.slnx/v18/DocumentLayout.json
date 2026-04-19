@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "I:\\Programming\\AboHuhaed\\#5\\Problem #5To 2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{770A213B-0399-4CB2-A0BD-41ECC2DBA36B}|Problem #5To 2\\Problem #5To 2.vcxproj|I:\\Programming\\AboHuhaed\\#5\\Problem #5To 2\\Problem #5To 2\\Problem #5To 2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{770A213B-0399-4CB2-A0BD-41ECC2DBA36B}|Problem #5To 2\\Problem #5To 2.vcxproj|solutionrelative:Problem #5To 2\\Problem #5To 2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Problem #5To 2.cpp",
+              "DocumentMoniker": "I:\\Programming\\AboHuhaed\\#5\\Problem #5To 2\\Problem #5To 2\\Problem #5To 2.cpp",
+              "RelativeDocumentMoniker": "Problem #5To 2\\Problem #5To 2.cpp",
+              "ToolTip": "I:\\Programming\\AboHuhaed\\#5\\Problem #5To 2\\Problem #5To 2\\Problem #5To 2.cpp",
+              "RelativeToolTip": "Problem #5To 2\\Problem #5To 2.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAwwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-26T03:50:09.588Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

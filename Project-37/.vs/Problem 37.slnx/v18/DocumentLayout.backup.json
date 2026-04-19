@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "I:\\Programming\\AboHuhaed\\#5\\Problem 37\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A3306FB2-25A9-49BD-BD4E-E99D32157E37}|Problem 37\\Problem 37.vcxproj|I:\\Programming\\AboHuhaed\\#5\\Problem 37\\Problem 37\\Problem 37.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A3306FB2-25A9-49BD-BD4E-E99D32157E37}|Problem 37\\Problem 37.vcxproj|solutionrelative:Problem 37\\Problem 37.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Problem 37.cpp",
+              "DocumentMoniker": "I:\\Programming\\AboHuhaed\\#5\\Problem 37\\Problem 37\\Problem 37.cpp",
+              "RelativeDocumentMoniker": "Problem 37\\Problem 37.cpp",
+              "ToolTip": "I:\\Programming\\AboHuhaed\\#5\\Problem 37\\Problem 37\\Problem 37.cpp",
+              "RelativeToolTip": "Problem 37\\Problem 37.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-04T08:17:57.547Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
