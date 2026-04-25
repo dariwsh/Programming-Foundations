@@ -35,6 +35,17 @@ int main()
 	{
 		cout << x1;
 	}
+
+
+	cout << endl;
+	int arr5[] = { 10,20,30 };
+
+	for (auto& x5 : arr5)
+	{
+		x5 -= 5;
+	}
+
+	cout << arr5[0] << " ";
 	return 0;
 
 }
