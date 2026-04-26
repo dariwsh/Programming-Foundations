@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Lesson #17_Call Stack_Call Hierarchy/Lesson #17_Call Stack_Call Hierarchy.vcxproj" />
+</Solution>
