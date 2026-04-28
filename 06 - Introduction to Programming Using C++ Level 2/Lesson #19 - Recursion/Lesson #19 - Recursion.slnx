@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Lesson #19 - Recursion/Lesson #19 - Recursion.vcxproj" />
+</Solution>
