@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Lesson #22 - Register Variable/Lesson #22 - Register Variable.vcxproj" />
+</Solution>
