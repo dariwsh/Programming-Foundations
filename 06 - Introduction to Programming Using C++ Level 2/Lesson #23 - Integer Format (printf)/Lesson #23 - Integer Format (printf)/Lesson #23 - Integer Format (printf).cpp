@@ -20,6 +20,7 @@ int main()
 
 		int Number1 = 30 , Number2 = 20;
 		printf("The Result of %d + %d = %d \n", Number1 , Number2 , Number1 + Number2);
+		printf("%5d",Number1);
 		return 0;
 }
 
