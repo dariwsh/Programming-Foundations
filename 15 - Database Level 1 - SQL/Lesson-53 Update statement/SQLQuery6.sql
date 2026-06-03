@@ -1,13 +1,10 @@
- 
-
 UPDATE Employees
-SET Salary = 500
-WHERE Salary <50000;
-
+set salary = salary + 5000
+where salary < 5000;
 
 
 UPDATE Employees
-SET FirstName = 'Ahmed',
-	LastName = 'Ali',
-	Salary = 60000
-WHERE EmployeeID = 2;
+SET salary = salary * 1.1
+where salary >= 5000 and salary < 10000;
+
+SELECT * FROM Employees

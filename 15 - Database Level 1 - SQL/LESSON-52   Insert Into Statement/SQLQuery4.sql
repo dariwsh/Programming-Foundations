@@ -22,3 +22,18 @@ delete from Employees where EmployeeID = 1;
 
 SELECT * FROM Employees 
 WHERE Salary >= 1000;
+
+INSERT INTO Employees
+VALUES 
+
+(7, 'Michael', 'Johnson', 'ald@gamil.com', '2023-02-15', 1500.00),
+(8, 'Jessica', 'Williams', 'kig@gmail.com', '2020-11-30', 2000.00),
+(9, 'David', 'Brown', 'jie@gamil.com', '2018-08-25', 500.00);
+
+
+
+INSERT INTO Employees
+VALUES 
+(1, 'Ahmed', 'Mohamed', 'ahmed@gamil.com', '2020-01-15', 50000.00),
+(4, 'Alice', 'Johnson', 'aljoh@gmill.com', '2019-05-20', 70000.00),
+(5, 'Bob', 'Smith', 'jdi@gmail.com', '2021-09-10', 45000.00);
