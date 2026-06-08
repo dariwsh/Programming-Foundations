@@ -1,0 +1,3 @@
+﻿  Problem 39.cpp
+I:\Programming\AboHuhaed\#5\Problem 39\Problem 39\Problem 39.cpp(10,11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Problem 39.vcxproj -> I:\Programming\AboHuhaed\#5\Problem 39\x64\Debug\Problem 39.exe

@@ -1,0 +1,4 @@
+﻿  Problem #02To 2.cpp
+I:\Programming\AboHuhaed\#5\Problem #02To 2\Problem #02To 2\Problem #02To 2.cpp(26,8): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+I:\Programming\AboHuhaed\#5\Problem #02To 2\Problem #02To 2\Problem #02To 2.cpp(60,46): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Problem #02To 2.vcxproj -> I:\Programming\AboHuhaed\#5\Problem #02To 2\x64\Debug\Problem #02To 2.exe

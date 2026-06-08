@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "I:\\Programming\\AboHuhaed\\#5\\Prject 1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F172159F-26FC-44A1-B174-5E706AB0B087}|Prject 1\\Prject 1.vcxproj|I:\\Programming\\AboHuhaed\\#5\\Prject 1\\Prject 1\\Prject 1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F172159F-26FC-44A1-B174-5E706AB0B087}|Prject 1\\Prject 1.vcxproj|solutionrelative:Prject 1\\Prject 1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Prject 1.cpp",
+              "DocumentMoniker": "I:\\Programming\\AboHuhaed\\#5\\Prject 1\\Prject 1\\Prject 1.cpp",
+              "RelativeDocumentMoniker": "Prject 1\\Prject 1.cpp",
+              "ToolTip": "I:\\Programming\\AboHuhaed\\#5\\Prject 1\\Prject 1\\Prject 1.cpp",
+              "RelativeToolTip": "Prject 1\\Prject 1.cpp",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-12T15:06:16.457Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
