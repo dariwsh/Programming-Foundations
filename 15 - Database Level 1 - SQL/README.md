@@ -26,6 +26,7 @@ The goal of this course is to build a strong foundation in:
 
 * Databases
 * Relational Database Systems
+* ERD Design & Relational Schema
 * SQL Querying
 * Real-world database thinking
 
@@ -36,10 +37,14 @@ The goal of this course is to build a strong foundation in:
 By the end of this course, I will be able to:
 
 ✔️ Understand how databases work internally
+✔️ Design Entity-Relationship Diagrams (ERD)
+✔️ Convert ERD into a Relational Schema
 ✔️ Design and manage relational databases
 ✔️ Write professional SQL queries
 ✔️ Work with multiple tables using relationships and JOINs
 ✔️ Filter, sort, group, and analyze data
+✔️ Apply Constraints to enforce data integrity
+✔️ Normalize databases using 1NF, 2NF, and 3NF
 ✔️ Build strong database logic for real applications
 
 ---
@@ -50,72 +55,126 @@ By the end of this course, I will be able to:
 
 * What is a Database?
 * DBMS vs RDBMS
-* Data organization concepts
-* Tables, Rows, Columns
+* Data, Information, Knowledge, Wisdom
+* NULL values
+* Redundancy & Data Integrity
+* Primary Key vs Foreign Key
+* Constraints
+
+---
+
+## 🔹 ERD — Entity Relationship Diagram
+
+* What is ERD?
+* ERD Symbols & Components
+* Entities & Weak Entities
+* Attributes
+* Relationships (One-to-One, One-to-Many, Many-to-Many)
+* Cardinality & Ordinality
+* Total vs Partial Participation
+* Associative Entity
+* Generalization & Specialization
+
+---
+
+## 🔹 Relational Schema
+
+* What is Relational Schema?
+* Convert ERD to Schema
+* Convert Composite Attributes
+* Convert One-to-One, One-to-Many, Many-to-Many
+
+---
+
+## 🔹 SQL — Database & Table Management
+
+* CREATE / DROP DATABASE
+* CREATE / DROP TABLE
+* SQL Data Types
+* ALTER TABLE
+* Backup & Restore Database
 
 ---
 
 ## 🔹 SQL Basics
 
 * SELECT
-* INSERT
+* INSERT INTO
 * UPDATE
 * DELETE
+* IDENTITY / AUTO INCREMENT
+* DELETE vs TRUNCATE
 
 ---
 
 ## 🔹 Filtering & Sorting
 
-* WHERE
+* WHERE + AND, OR, NOT
+* IN Operator
 * ORDER BY
 * DISTINCT
 * TOP
+* BETWEEN
+* LIKE & WildCards
 
 ---
 
 ## 🔹 Advanced Querying
 
-* Aggregate Functions
+* Aggregate Functions (COUNT, SUM, AVG, MIN, MAX)
 * GROUP BY
 * HAVING
-* Subqueries
+* SELECT AS (Aliases)
+* CASE (Conditional Logic)
 
 ---
 
 ## 🔹 Working with Multiple Tables
 
+* Foreign Key Constraint
 * INNER JOIN
 * LEFT JOIN
-* RIGHT JOIN
-* Relationships
+* RIGHT JOIN & FULL JOIN
+* UNION & UNION ALL
+* EXISTS & NOT EXISTS
+* VIEW
 
 ---
 
-## 🔹 Database Design Concepts
+## 🔹 Constraints
 
-* Primary Key
-* Foreign Key
-* Constraints
-* Normalization Basics
+* PRIMARY KEY
+* UNIQUE
+* NOT NULL
+* CHECK
+* DEFAULT
+* INDEX
+
+---
+
+## 🔹 Normalization
+
+* What is Normalization?
+* First Normal Form (1NF)
+* Second Normal Form (2NF)
+* Third Normal Form (3NF)
 
 ---
 
 # 📂 Repository Structure
 
-```text id="1kv2vf"
+```text
 Database-Level-1-SQL/
 │
 ├── Lesson-01/
 │   ├── README.md
-│   ├── notes.sql
-│   └── exercises.sql
+│   └── notes.sql
 │
 ├── Lesson-02/
 │   ├── README.md
-│   ├── notes.sql
-│   └── exercises.sql
+│   └── notes.sql
 │
-└── ...
+└── ... (89 Lessons)
 ```
 
 ---
@@ -149,7 +208,7 @@ Database-Level-1-SQL/
 
 # 📈 Current Focus
 
-```sql id="0w8sse"
+```sql
 SELECT *
 FROM Learning
 WHERE Consistency = 'Daily';
@@ -190,6 +249,7 @@ It documents:
 | Instructor | Dr. Mohammed Abu-Hadhoud |
 | Course     | Database Level 1         |
 | Track      | Programming Foundations  |
+| Lessons    | 89 Lessons               |
 
 ---
 
@@ -205,7 +265,7 @@ If this repository helps you:
 
 # 🧠 Final Note
 
-```text id="okn6j0"
+```text
 Strong programmers write code.
 Professional programmers understand data.
 ```
