@@ -1,3 +1,6 @@
+# 📘 Introduction
+In this lesson, we learned about:
+
 # 📘 C++ Lesson 37 — Common Pointer Mistakes
 
 <p align="center">
@@ -8,13 +11,13 @@
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 Ahmed Darwish
 
 ---
 
-## 📌 Overview
+# 📌 Overview
 
 This lesson covers the most dangerous and common mistakes when working with pointers in C++.
 
@@ -22,7 +25,7 @@ This lesson covers the most dangerous and common mistakes when working with poin
 
 ---
 
-## 🧠 Topics Covered
+# 🧠 Topics Covered
 
 * Uninitialized pointers
 * nullptr dereference
@@ -33,13 +36,13 @@ This lesson covers the most dangerous and common mistakes when working with poin
 
 ---
 
-## 🔥 Core Idea
+# 🔥 Core Idea
 
 > Most C++ crashes come from invalid memory access.
 
 ---
 
-## ⚠️ Common Mistakes
+# 🔥 Pro Tips & Rules
 
 | Mistake             | Result             |
 | ------------------- | ------------------ |
@@ -51,7 +54,7 @@ This lesson covers the most dangerous and common mistakes when working with poin
 
 ---
 
-## 🧪 Example
+# 💡 Practical Details
 
 ```cpp id="jlwm2z"
 int *p = nullptr;
@@ -61,7 +64,7 @@ cout << *p;
 
 ---
 
-## 🚨 Result
+# 🚨 Result
 
 ```text id="jlwm8n"
 Crash
@@ -69,13 +72,13 @@ Crash
 
 ---
 
-## 🧠 Important Insight
+# 🧠 Important Insight
 
 > Pointer bugs are memory bugs.
 
 ---
 
-## 🔥 Best Practices
+# 🔥 Best Practices
 
 * Initialize every pointer
 * Use nullptr
@@ -85,8 +88,19 @@ Crash
 
 ---
 
-## 🚀 Next Step
+# 🚀 Next Step
 
 * Dynamic Memory
 * Smart Pointers
 * Memory Ownership
+
+---
+
+# 👨‍💻 Author
+Ahmed Darwish 🚀 🚀 Software Engineering Student
+I share my journey in learning programming, my projects, and my study summaries.
+🌐 Portfolio [https://darwish.xo.je](https://darwish.xo.je)
+💻 GitHub [https://github.com/dariwsh](https://github.com/dariwsh)
+🔗 LinkedIn [https://www.linkedin.com/in/ahmed-darwish-33b752330/](https://www.linkedin.com/in/ahmed-darwish-33b752330/)
+🤝 Any advice or feedback is always welcome, learning never stops.
+❤️ Thanks for visiting.

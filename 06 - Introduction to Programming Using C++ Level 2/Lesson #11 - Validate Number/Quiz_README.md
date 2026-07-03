@@ -5,66 +5,31 @@ Ahmed Darwish
 
 ---
 
-## 📌 Topics Covered
-- cin.fail()
-- cin.clear()
-- cin.ignore()
-- Input validation
-- Buffer handling
+## 🧠 Interactive Quiz
 
----
+**Question:** Which two std::cin functions are critical to reset and clean input when input validation fails?
 
-## 🧪 Questions
+<details>
+<summary><b>Option A:</b> cin.clear() to reset error flags, and cin.ignore() to clear the stream buffer.</summary>
 
-### Q1
-```cpp
-cin >> x;
-```
-❓ What is the problem with this line?
+✅ <b>Correct!</b> Correct! cin.clear() resets error flags so cin works again, and cin.ignore() discards bad characters from the buffer.
+</details>
 
----
+<details>
+<summary><b>Option B:</b> cin.fail() and cin.reset()</summary>
 
-### Q2
-```cpp
-while(cin.fail())
-```
-❓ When does this loop run?
+❌ <b>Incorrect!</b> cin.fail() checks error status, but cin.reset() is not a valid function name.
+</details>
 
----
+<details>
+<summary><b>Option C:</b> cin.close() and cin.open()</summary>
 
-### Q3
-```cpp
-cin.clear();
-```
-❓ What does it do?
+❌ <b>Incorrect!</b> Standard input streams are not closed and reopened to handle error states.
+</details>
 
----
+<details>
+<summary><b>Option D:</b> cin.flush() and cin.clean()</summary>
 
-### Q4
-```cpp
-cin.ignore(2, '\n');
-```
-❓ Why is this dangerous?
+❌ <b>Incorrect!</b> These are not standard input cleaning functions.
+</details>
 
----
-
-### Q5
-What happens if we remove `cin.ignore()`?
-
----
-
-### Q6
-Write a function that:
-- reads a number
-- prevents invalid input
-- accepts only values from 1 to 5
-
----
-
-## 🎯 هدف الكويز
-Test real understanding of input validation and buffer handling.
-
----
-
-## 🧠 Hint
-> clear fixes the error, ignore cleans the buffer.

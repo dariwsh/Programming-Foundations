@@ -1,16 +1,18 @@
+# 📘 Introduction
+In this lesson, we learned about:
+
 # 📘 C++ Lesson README
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 Ahmed Darwish
 
-
-## 📌 Overview
+# 📌 Overview
 
 This lesson introduces a core concept in **C++ programming**, focusing on understanding the logic, syntax, and practical usage through simple and clear examples.
 
 ---
 
-## 🎯 Objectives
+# 🎯 Objectives
 
 By the end of this lesson, you should be able to:
 
@@ -21,7 +23,7 @@ By the end of this lesson, you should be able to:
 
 ---
 
-## 🧠 Key Concepts
+# 🧠 Key Concepts
 
 * Concept explanation goes here (e.g., loops, functions, arrays, etc.)
 * Syntax breakdown
@@ -30,7 +32,7 @@ By the end of this lesson, you should be able to:
 
 ---
 
-## 💻 Example Code
+# 💻 Example Code
 
 ```cpp
 #include <iostream>
@@ -46,7 +48,7 @@ int main() {
 
 ---
 
-## 🧪 Practice
+# 🧪 Practice
 
 Try to solve the following:
 
@@ -56,7 +58,7 @@ Try to solve the following:
 
 ---
 
-## ⚠️ Common Mistakes
+# 🔥 Pro Tips & Rules
 
 * Forgetting semicolons `;`
 * Wrong syntax usage
@@ -65,6 +67,17 @@ Try to solve the following:
 
 ---
 
-## 🚀 Summary
+# 🚀 Summary
 
 This lesson builds a foundation for more advanced C++ topics. Make sure you fully understand the concept before moving to the next lesson.
+
+---
+
+# 👨‍💻 Author
+Ahmed Darwish 🚀 🚀 Software Engineering Student
+I share my journey in learning programming, my projects, and my study summaries.
+🌐 Portfolio [https://darwish.xo.je](https://darwish.xo.je)
+💻 GitHub [https://github.com/dariwsh](https://github.com/dariwsh)
+🔗 LinkedIn [https://www.linkedin.com/in/ahmed-darwish-33b752330/](https://www.linkedin.com/in/ahmed-darwish-33b752330/)
+🤝 Any advice or feedback is always welcome, learning never stops.
+❤️ Thanks for visiting.

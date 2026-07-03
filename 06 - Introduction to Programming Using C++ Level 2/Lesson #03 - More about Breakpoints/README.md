@@ -1,10 +1,13 @@
+# 📘 Introduction
+In this lesson, we learned about:
+
 # 🚀 C++ Debugging - Breakpoints Mastery
 
 > Learn how to debug like a pro using Breakpoints in C++
 
 ---
 
-## 🎯 Why this matters?
+# 🎯 Why this matters?
 
 Debugging is one of the **most important skills** for any programmer.
 
@@ -18,7 +21,7 @@ If you don't know how your code runs → you can't fix it.
 
 ---
 
-## 🧠 What is a Breakpoint?
+# 🧠 Concepts Covered
 
 A **Breakpoint** is a point where the program stops during execution.
 
@@ -28,7 +31,7 @@ A **Breakpoint** is a point where the program stops during execution.
 
 ---
 
-## ⚡ Quick Example
+# ⚡ Quick Example
 
 ```cpp id="fl96qb"
 #include <iostream>
@@ -49,7 +52,7 @@ int main()
 
 ---
 
-## 🔍 What happens when it stops?
+# 🔍 What happens when it stops?
 
 When execution stops:
 
@@ -59,7 +62,7 @@ When execution stops:
 
 ---
 
-## 🛠 Debugging Tools (Super Important)
+# 🛠 Debugging Tools (Super Important)
 
 | Tool        | What it does    |
 | ----------- | --------------- |
@@ -70,7 +73,7 @@ When execution stops:
 
 ---
 
-## 🔥 Pro Tips
+# 🔥 Pro Tips & Rules
 
 * Don't spam breakpoints everywhere ❌
 * Put them in **important logic parts** ✅
@@ -79,7 +82,7 @@ When execution stops:
 
 ---
 
-## 🧩 Practice Like a Pro
+# 🧩 Practice Like a Pro
 
 Try this:
 
@@ -89,7 +92,7 @@ Try this:
 
 ---
 
-## 💡 Real Talk
+# 💡 Real Talk
 
 Most beginners:
 ❌ Guess what's wrong
@@ -101,7 +104,7 @@ Smart developers:
 
 ---
 
-## 🏁 Final Summary
+# 🏁 Final Summary
 
 * Breakpoint = stop execution
 * Helps you understand code
@@ -110,9 +113,20 @@ Smart developers:
 
 ---
 
-## ⭐ If this helped you
+# ⭐ If this helped you
 
 Give the repo a ⭐ and follow for more C++ content 🚀
 
 ---
 Ahmed Darwis
+
+---
+
+# 👨‍💻 Author
+Ahmed Darwish 🚀 🚀 Software Engineering Student
+I share my journey in learning programming, my projects, and my study summaries.
+🌐 Portfolio [https://darwish.xo.je](https://darwish.xo.je)
+💻 GitHub [https://github.com/dariwsh](https://github.com/dariwsh)
+🔗 LinkedIn [https://www.linkedin.com/in/ahmed-darwish-33b752330/](https://www.linkedin.com/in/ahmed-darwish-33b752330/)
+🤝 Any advice or feedback is always welcome, learning never stops.
+❤️ Thanks for visiting.

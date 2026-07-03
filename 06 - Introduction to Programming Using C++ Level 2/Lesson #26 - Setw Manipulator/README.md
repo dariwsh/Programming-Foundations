@@ -1,3 +1,6 @@
+# 📘 Introduction
+In this lesson, we learned about:
+
 # 📘 C++ Lesson 26 — setw Manipulator
 
 <p align="center">
@@ -8,13 +11,13 @@
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Ahmed Darwish**
 
 ---
 
-## 📌 Overview
+# 📌 Overview
 
 This lesson introduces the `setw` manipulator from `<iomanip>` used to control output formatting in C++.
 
@@ -22,7 +25,7 @@ This lesson introduces the `setw` manipulator from `<iomanip>` used to control o
 
 ---
 
-## 🧠 What is `setw`?
+# 🧠 Concepts Covered
 
 `setw(n)` sets the **minimum width** for the next output element.
 
@@ -39,7 +42,7 @@ cout << setw(5) << 42;
 
 ---
 
-## ⚠️ Important Rule
+# ⚠️ Important Rule
 
 > `setw` affects **ONLY the next element**
 
@@ -55,15 +58,15 @@ cout << setw(5) << 1 << 2;
 
 ---
 
-## 🔹 Alignment
+# 🔹 Alignment
 
-### Right (Default)
+# Right (Default)
 
 ```cpp
 cout << setw(5) << 10;
 ```
 
-### Left
+# Left
 
 ```cpp
 cout << left << setw(5) << 10;
@@ -71,7 +74,7 @@ cout << left << setw(5) << 10;
 
 ---
 
-## 🔹 Fill Character
+# 🔹 Fill Character
 
 ```cpp
 cout << setfill('*') << setw(5) << 7;
@@ -85,7 +88,7 @@ cout << setfill('*') << setw(5) << 7;
 
 ---
 
-## 🔹 Persistent vs Non-Persistent
+# 🔹 Persistent vs Non-Persistent
 
 | Feature      | Behavior   |
 | ------------ | ---------- |
@@ -95,7 +98,7 @@ cout << setfill('*') << setw(5) << 7;
 
 ---
 
-## 🔹 Table Formatting (Real Use Case)
+# 🔹 Table Formatting (Real Use Case)
 
 ```cpp
 cout << left << setw(10) << "Name"
@@ -114,7 +117,7 @@ Ahmed     20
 
 ---
 
-## 🧪 Examples
+# 🧪 Examples
 
 ```cpp
 cout << setw(4) << 5;                //    5
@@ -125,15 +128,15 @@ cout << setw(3) << 1 << setw(3) << 2;//   1  2
 
 ---
 
-## 💣 Common Mistakes
+# 💣 Common Mistakes
 
-### ❌ Expecting setw to apply to all elements
+# ❌ Expecting setw to apply to all elements
 
 ```cpp
 cout << setw(3) << 1 << 2 << 3;
 ```
 
-### ✅ Correct Output
+# ✅ Correct Output
 
 ```
   123
@@ -141,7 +144,7 @@ cout << setw(3) << 1 << 2 << 3;
 
 ---
 
-## 🎯 Key Takeaways
+# 🎯 Key Takeaways
 
 * `setw(n)` → applies once
 * `setfill(c)` → stays active
@@ -150,13 +153,13 @@ cout << setw(3) << 1 << 2 << 3;
 
 ---
 
-## 🚀 Pro Tip
+# 🚀 Pro Tip
 
 > Formatting output is not optional — it's a sign of clean and professional code.
 
 ---
 
-## ⭐ Next Step
+# ⭐ Next Step
 
 Combine `setw` with:
 
@@ -165,3 +168,14 @@ Combine `setw` with:
 * tables
 
 to build real console UIs.
+
+---
+
+# 👨‍💻 Author
+Ahmed Darwish 🚀 🚀 Software Engineering Student
+I share my journey in learning programming, my projects, and my study summaries.
+🌐 Portfolio [https://darwish.xo.je](https://darwish.xo.je)
+💻 GitHub [https://github.com/dariwsh](https://github.com/dariwsh)
+🔗 LinkedIn [https://www.linkedin.com/in/ahmed-darwish-33b752330/](https://www.linkedin.com/in/ahmed-darwish-33b752330/)
+🤝 Any advice or feedback is always welcome, learning never stops.
+❤️ Thanks for visiting.

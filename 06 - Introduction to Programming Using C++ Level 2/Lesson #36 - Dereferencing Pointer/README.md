@@ -1,3 +1,6 @@
+# 📘 Introduction
+In this lesson, we learned about:
+
 # 📘 C++ Lesson 36 — Dereferencing Pointer
 
 <p align="center">
@@ -8,13 +11,13 @@
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 Ahmed Darwish
 
 ---
 
-## 📌 Overview
+# 📌 Overview
 
 This lesson explains:
 
@@ -22,7 +25,7 @@ This lesson explains:
 
 ---
 
-## 🧠 What is Dereferencing?
+# 🧠 Concepts Covered
 
 Dereferencing means:
 
@@ -30,7 +33,7 @@ Dereferencing means:
 
 ---
 
-## 🔹 Syntax
+# 🔹 Syntax
 
 ```cpp
 *p
@@ -38,7 +41,7 @@ Dereferencing means:
 
 ---
 
-## 🔹 Core Rule
+# 🔹 Core Rule
 
 | Expression | Meaning          |
 | ---------- | ---------------- |
@@ -47,7 +50,7 @@ Dereferencing means:
 
 ---
 
-## 🧪 Example
+# 💡 Practical Details
 
 ```cpp
 int a = 10;
@@ -58,7 +61,7 @@ cout << *p;
 
 ---
 
-## 🎯 Output
+# 🎯 Output
 
 ```text
 10
@@ -66,7 +69,7 @@ cout << *p;
 
 ---
 
-## 🔥 Modify Original Variable
+# 🔥 Modify Original Variable
 
 ```cpp
 *p = 50;
@@ -76,7 +79,7 @@ cout << *p;
 
 ---
 
-## ⚠️ Common Mistakes
+# 🔥 Pro Tips & Rules
 
 * Dereferencing nullptr
 * Uninitialized pointers
@@ -84,7 +87,7 @@ cout << *p;
 
 ---
 
-## 🧠 Important Concepts
+# 🧠 Important Concepts
 
 * Memory access
 * Address vs value
@@ -92,8 +95,19 @@ cout << *p;
 
 ---
 
-## 🚀 Next Step
+# 🚀 Next Step
 
 * Pointer Arithmetic
 * Arrays with pointers
 * Pointer & Functions
+
+---
+
+# 👨‍💻 Author
+Ahmed Darwish 🚀 🚀 Software Engineering Student
+I share my journey in learning programming, my projects, and my study summaries.
+🌐 Portfolio [https://darwish.xo.je](https://darwish.xo.je)
+💻 GitHub [https://github.com/dariwsh](https://github.com/dariwsh)
+🔗 LinkedIn [https://www.linkedin.com/in/ahmed-darwish-33b752330/](https://www.linkedin.com/in/ahmed-darwish-33b752330/)
+🤝 Any advice or feedback is always welcome, learning never stops.
+❤️ Thanks for visiting.

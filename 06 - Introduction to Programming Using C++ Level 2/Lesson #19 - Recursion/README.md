@@ -1,23 +1,26 @@
+# 📘 Introduction
+In this lesson, we learned about:
+
 # 📘 C++ Lesson — Recursion
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 Ahmed Darwish
 
 ---
 
-## 📌 Overview
+# 📌 Overview
 
 Recursion is a technique where a function calls itself to solve a problem.
 
 ---
 
-## 🧠 Core Idea
+# 🧠 Concepts Covered
 
 > A function keeps calling itself until a stopping condition is met.
 
 ---
 
-## 🔧 Structure
+# 🔧 Structure
 
 ```cpp
 if (Base Case)
@@ -28,17 +31,17 @@ Recursive Call;
 
 ---
 
-## 🔹 Key Components
+# 🔹 Key Components
 
-### 1. Base Case
+# 1. Base Case
 Stops recursion.
 
-### 2. Recursive Case
+# 2. Recursive Case
 Function calls itself.
 
 ---
 
-## 🔥 Example
+# 🔥 Example
 
 ```cpp
 void Print(int n)
@@ -51,14 +54,14 @@ void Print(int n)
 
 ---
 
-## 🧠 Call Stack
+# 🧠 Call Stack
 
 - Recursion uses stack (LIFO)
 - Functions wait until deeper calls finish
 
 ---
 
-## ⚠️ Common Mistakes
+# 🔥 Pro Tips & Rules
 
 - Missing base case  
 - Wrong recursive direction  
@@ -66,7 +69,7 @@ void Print(int n)
 
 ---
 
-## 🔁 Example: Factorial
+# 🔁 Example: Factorial
 
 ```cpp
 int Fact(int n)
@@ -78,7 +81,7 @@ int Fact(int n)
 
 ---
 
-## 📊 Recursion vs Loop
+# 📊 Recursion vs Loop
 
 | Recursion | Loop |
 |----------|------|
@@ -88,7 +91,7 @@ int Fact(int n)
 
 ---
 
-## 🧠 Key Takeaways
+# 🧠 Key Takeaways
 
 - Recursion = self-calling function  
 - Always define base case  
@@ -96,6 +99,17 @@ int Fact(int n)
 
 ---
 
-## 🎯 Goal
+# 🎯 Goal
 
 Understand how problems can be broken into smaller versions of themselves.
+
+---
+
+# 👨‍💻 Author
+Ahmed Darwish 🚀 🚀 Software Engineering Student
+I share my journey in learning programming, my projects, and my study summaries.
+🌐 Portfolio [https://darwish.xo.je](https://darwish.xo.je)
+💻 GitHub [https://github.com/dariwsh](https://github.com/dariwsh)
+🔗 LinkedIn [https://www.linkedin.com/in/ahmed-darwish-33b752330/](https://www.linkedin.com/in/ahmed-darwish-33b752330/)
+🤝 Any advice or feedback is always welcome, learning never stops.
+❤️ Thanks for visiting.

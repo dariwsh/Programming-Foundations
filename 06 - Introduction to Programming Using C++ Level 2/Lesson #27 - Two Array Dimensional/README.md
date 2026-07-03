@@ -1,3 +1,6 @@
+# 📘 Introduction
+In this lesson, we learned about:
+
 # 📘 C++ Lesson — 2D Arrays (Basics)
 
 <p align="center">
@@ -8,13 +11,13 @@
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 Ahmed Darwish
 
 ---
 
-## 📌 Overview
+# 📌 Overview
 
 This lesson introduces **Two-Dimensional Arrays (2D Arrays)** in C++.
 
@@ -22,7 +25,7 @@ This lesson introduces **Two-Dimensional Arrays (2D Arrays)** in C++.
 
 ---
 
-## 🧠 What is 2D Array?
+# 🧠 Concepts Covered
 
 A 2D Array is:
 
@@ -37,7 +40,7 @@ Example:
 
 ---
 
-## 🔹 Declaration
+# 🔹 Declaration
 
 ```cpp
 int arr[2][3];
@@ -50,7 +53,7 @@ int arr[2][3];
 
 ---
 
-## 🔹 Initialization
+# 🔹 Initialization
 
 ```cpp
 int arr[2][3] = {
@@ -61,7 +64,7 @@ int arr[2][3] = {
 
 ---
 
-## 🔹 Access Element
+# 🔹 Access Element
 
 ```cpp
 arr[1][0] = 10;
@@ -71,7 +74,7 @@ arr[1][0] = 10;
 
 ---
 
-## 🔹 Traversing (Looping)
+# 🔹 Traversing (Looping)
 
 ```cpp
 for(int i=0;i<2;i++){
@@ -84,7 +87,7 @@ for(int i=0;i<2;i++){
 
 ---
 
-## 🧠 Key Concept
+# 🧠 Key Concept
 
 | Variable | Meaning |
 | -------- | ------- |
@@ -93,7 +96,7 @@ for(int i=0;i<2;i++){
 
 ---
 
-## 🔥 Logic Example
+# 🔥 Logic Example
 
 ```cpp
 arr[i][j] = i + j;
@@ -108,7 +111,7 @@ Output:
 
 ---
 
-## 💣 Important Rules
+# 💣 Important Rules
 
 * Always use nested loops
 * i → rows
@@ -117,12 +120,23 @@ Output:
 
 ---
 
-## 🎯 Goal
+# 🎯 Goal
 
 > Read and write 2D arrays confidently and understand their structure
 
 ---
 
-## 🚀 Tip
+# 🚀 Tip
 
 > Don’t memorize — trace the loops step by step
+
+---
+
+# 👨‍💻 Author
+Ahmed Darwish 🚀 🚀 Software Engineering Student
+I share my journey in learning programming, my projects, and my study summaries.
+🌐 Portfolio [https://darwish.xo.je](https://darwish.xo.je)
+💻 GitHub [https://github.com/dariwsh](https://github.com/dariwsh)
+🔗 LinkedIn [https://www.linkedin.com/in/ahmed-darwish-33b752330/](https://www.linkedin.com/in/ahmed-darwish-33b752330/)
+🤝 Any advice or feedback is always welcome, learning never stops.
+❤️ Thanks for visiting.

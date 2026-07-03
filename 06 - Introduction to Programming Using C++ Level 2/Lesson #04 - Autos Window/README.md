@@ -1,10 +1,13 @@
+# 📘 Introduction
+In this lesson, we learned about:
+
 # 🚀 C++ Debugging - Autos Window Guide
 
 > See your variables live while debugging 🔥
 
 ---
 
-## 🎯 Why this matters?
+# 🎯 Why this matters?
 
 When debugging, you need to **see what is happening inside your code**.
 
@@ -16,7 +19,7 @@ When debugging, you need to **see what is happening inside your code**.
 
 ---
 
-## 🧠 What is Autos Window?
+# 🧠 Concepts Covered
 
 The **Autos Window** shows variables used near the current line while debugging.
 
@@ -26,14 +29,14 @@ The **Autos Window** shows variables used near the current line while debugging.
 
 ---
 
-## ⚡ When does it work?
+# ⚡ When does it work?
 
 * Only works in **Debug mode**
 * Only appears when the program **stops at a breakpoint**
 
 ---
 
-## 🔍 What does it show?
+# 🔍 What does it show?
 
 When the program stops:
 
@@ -46,7 +49,7 @@ It shows variables from **a few lines before the current line** ([Microsoft Lear
 
 ---
 
-## 🧪 Example
+# 💡 Practical Details
 
 ```cpp
 #include <iostream>
@@ -72,7 +75,7 @@ int main()
 
 ---
 
-## 🛠 How to open Autos Window
+# 🛠 How to open Autos Window
 
 While debugging:
 
@@ -82,7 +85,7 @@ OR
 
 ---
 
-## 🔥 Pro Tips
+# 🔥 Pro Tips & Rules
 
 * Use Autos for **quick check**
 * Use Locals for **all variables**
@@ -90,7 +93,7 @@ OR
 
 ---
 
-## ⚠️ Important Notes
+# 🔥 Pro Tips & Rules
 
 * Autos shows only **related variables**
 * Some values may not appear if not used yet
@@ -98,7 +101,7 @@ OR
 
 ---
 
-## 🧩 Practice
+# 🧩 Practice
 
 Try this:
 
@@ -108,7 +111,7 @@ Try this:
 
 ---
 
-## 💡 Real Talk
+# 💡 Real Talk
 
 Beginners:
 ❌ Print everything
@@ -119,7 +122,7 @@ Smart developers:
 
 ---
 
-## 🏁 Summary
+# 🏁 Summary
 
 * Autos Window = auto variables view
 * Works only in debugging
@@ -128,9 +131,17 @@ Smart developers:
 
 ---
 
-## ⭐ If this helped you
+# ⭐ If this helped you
 
 Give the repo a ⭐ and follow for more C++ content 🚀
 
 ---
-Ahmed Darwish
+
+# 👨‍💻 Author
+Ahmed Darwish 🚀 🚀 Software Engineering Student
+I share my journey in learning programming, my projects, and my study summaries.
+🌐 Portfolio [https://darwish.xo.je](https://darwish.xo.je)
+💻 GitHub [https://github.com/dariwsh](https://github.com/dariwsh)
+🔗 LinkedIn [https://www.linkedin.com/in/ahmed-darwish-33b752330/](https://www.linkedin.com/in/ahmed-darwish-33b752330/)
+🤝 Any advice or feedback is always welcome, learning never stops.
+❤️ Thanks for visiting.

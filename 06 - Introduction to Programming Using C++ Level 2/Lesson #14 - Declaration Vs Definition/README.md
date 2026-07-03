@@ -1,23 +1,26 @@
+# 📘 Introduction
+In this lesson, we learned about:
+
 # 📘 C++ Lesson — Declaration vs Definition
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 Ahmed Darwish
 
 ---
 
-## 📌 Overview
+# 📌 Overview
 This lesson explains the difference between **function declaration** and **function definition** in C++, and why order matters in your code.
 
 ---
 
-## 🧠 Core Idea
+# 🧠 Concepts Covered
 
 > The compiler reads code from top to bottom.  
 > You must declare a function before using it.
 
 ---
 
-## 🔹 What is Declaration?
+# 🔹 What is Declaration?
 
 A declaration tells the compiler:
 > "This function exists"
@@ -33,7 +36,7 @@ void SayHello();
 
 ---
 
-## 🔹 What is Definition?
+# 🔹 What is Definition?
 
 A definition contains:
 > "The actual implementation"
@@ -47,7 +50,7 @@ void SayHello()
 
 ---
 
-## ❌ Common Error
+# ❌ Common Error
 
 ```cpp
 int main()
@@ -61,12 +64,12 @@ void SayHello()
 }
 ```
 
-### 💥 Why?
+# 💥 Why?
 The compiler does not know the function yet.
 
 ---
 
-## ✅ Solution 1 — Use Declaration
+# ✅ Solution 1 — Use Declaration
 
 ```cpp
 void SayHello(); // Declaration
@@ -84,7 +87,7 @@ void SayHello()
 
 ---
 
-## ✅ Solution 2 — Define Before main
+# ✅ Solution 2 — Define Before main
 
 ```cpp
 void SayHello()
@@ -100,7 +103,7 @@ int main()
 
 ---
 
-## 🔍 Important Note
+# 🔍 Important Note
 
 In declaration, parameter names are optional:
 
@@ -114,7 +117,7 @@ int Sum(int a, int b); // ✔️ Also valid
 
 ---
 
-## ⚠️ Common Mistakes
+# 🔥 Pro Tips & Rules
 
 - ❌ Calling a function before declaration  
 - ❌ Forgetting return type  
@@ -122,7 +125,7 @@ int Sum(int a, int b); // ✔️ Also valid
 
 ---
 
-## 🧠 Key Takeaways
+# 🧠 Key Takeaways
 
 - Declaration = informs the compiler  
 - Definition = implements the function  
@@ -131,12 +134,23 @@ int Sum(int a, int b); // ✔️ Also valid
 
 ---
 
-## 🎯 Goal
+# 🎯 Goal
 
 Write structured and organized code that compiles without errors.
 
 ---
 
-## 💡 Tip
+# 💡 Tip
 
 > If your function is below `main()`, always declare it above.
+
+---
+
+# 👨‍💻 Author
+Ahmed Darwish 🚀 🚀 Software Engineering Student
+I share my journey in learning programming, my projects, and my study summaries.
+🌐 Portfolio [https://darwish.xo.je](https://darwish.xo.je)
+💻 GitHub [https://github.com/dariwsh](https://github.com/dariwsh)
+🔗 LinkedIn [https://www.linkedin.com/in/ahmed-darwish-33b752330/](https://www.linkedin.com/in/ahmed-darwish-33b752330/)
+🤝 Any advice or feedback is always welcome, learning never stops.
+❤️ Thanks for visiting.

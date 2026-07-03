@@ -1,3 +1,6 @@
+# 📘 Introduction
+In this lesson, we learned about:
+
 # 📘 C++ Project — Max Number in Vector
 
 <p align="center">
@@ -7,13 +10,13 @@
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 Ahmed Darwish
 
 ---
 
-## 📌 Description
+# 🎯 Main Idea
 
 A C++ program that:
 
@@ -24,7 +27,7 @@ A C++ program that:
 
 ---
 
-## 🧠 Concepts Used
+# 🧠 Concepts Used
 
 * `vector<int>`
 * `push_back()`
@@ -33,7 +36,7 @@ A C++ program that:
 
 ---
 
-## 🔹 Features
+# ✨ Key Features & Tools
 
 * Dynamic input
 * Unlimited numbers
@@ -42,7 +45,7 @@ A C++ program that:
 
 ---
 
-## 🎯 Output Example
+# 🎯 Output Example
 
 ```
 Please Enter A Number: 10
@@ -54,9 +57,20 @@ Max Number: 20
 
 ---
 
-## 🚀 Goal
+# 🚀 Goal
 
 Practice:
 
 * Vector input/output
 * Basic algorithms (max search)
+
+---
+
+# 👨‍💻 Author
+Ahmed Darwish 🚀 🚀 Software Engineering Student
+I share my journey in learning programming, my projects, and my study summaries.
+🌐 Portfolio [https://darwish.xo.je](https://darwish.xo.je)
+💻 GitHub [https://github.com/dariwsh](https://github.com/dariwsh)
+🔗 LinkedIn [https://www.linkedin.com/in/ahmed-darwish-33b752330/](https://www.linkedin.com/in/ahmed-darwish-33b752330/)
+🤝 Any advice or feedback is always welcome, learning never stops.
+❤️ Thanks for visiting.

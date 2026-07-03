@@ -1,12 +1,15 @@
+# 📘 Introduction
+In this lesson, we learned about:
+
 # 📘 C++ Lesson 25 — String & Char Formatting (printf)
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 Ahmed Darwish
 
 ---
 
-## 📌 Overview
+# 📌 Overview
 
 This lesson explains how to format **characters** and **strings** using `printf` in C/C++.
 
@@ -20,9 +23,9 @@ You will learn how to control:
 
 ---
 
-## 🔹 1. Character Formatting `%c`
+# 🔹 1. Character Formatting `%c`
 
-### ✅ Basic Example
+# ✅ Basic Example
 
 ```cpp
 printf("%c", 'A');
@@ -36,7 +39,7 @@ A
 
 ---
 
-### 🔹 Width with Char
+# 🔹 Width with Char
 
 ```cpp
 printf("%5c", 'A');
@@ -52,9 +55,9 @@ printf("%5c", 'A');
 
 ---
 
-## 🔹 2. String Formatting `%s`
+# 🔹 2. String Formatting `%s`
 
-### ✅ Basic Example
+# ✅ Basic Example
 
 ```cpp
 printf("%s", "Ahmed");
@@ -68,7 +71,7 @@ Ahmed
 
 ---
 
-### ⚠️ Important (C++ string)
+# ⚠️ Important (C++ string)
 
 ```cpp
 string name = "Ahmed";
@@ -79,7 +82,7 @@ printf("%s", name.c_str());
 
 ---
 
-## 🔹 3. Width (Right Alignment)
+# 🔹 3. Width (Right Alignment)
 
 ```cpp
 printf("%10s", "Ali");
@@ -95,7 +98,7 @@ printf("%10s", "Ali");
 
 ---
 
-## 🔹 4. Left Alignment
+# 🔹 4. Left Alignment
 
 ```cpp
 printf("%-10s", "Ali");
@@ -109,7 +112,7 @@ Ali
 
 ---
 
-## 🔹 5. Precision (String Truncation)
+# 🔹 5. Precision (String Truncation)
 
 ```cpp
 printf("%.3s", "Ahmed");
@@ -125,7 +128,7 @@ Ahm
 
 ---
 
-## 🔹 6. Width + Precision
+# 🔹 6. Width + Precision
 
 ```cpp
 printf("%10.3s", "Ahmed");
@@ -139,7 +142,7 @@ printf("%10.3s", "Ahmed");
 
 ---
 
-## 🧠 How It Works (Execution Order)
+# 🧠 How It Works (Execution Order)
 
 ```text
 1. Apply precision (cut text)
@@ -149,13 +152,13 @@ printf("%10.3s", "Ahmed");
 
 ---
 
-## 💣 Advanced Example
+# 💣 Advanced Example
 
 ```cpp
 printf("%-8.4s", "Programming");
 ```
 
-### Step-by-step:
+# Step-by-step:
 
 1. Cut → `"Prog"`
 2. Align left → add spaces
@@ -168,7 +171,7 @@ Prog
 
 ---
 
-## 🔥 Key Rules
+# 🔥 Key Rules
 
 * `%c` → single character
 * `%s` → string (char array or `.c_str()`)
@@ -178,7 +181,7 @@ Prog
 
 ---
 
-## 🧪 Practice Examples
+# 🧪 Practice Examples
 
 ```cpp
 printf("%.2s", "Hello");   // He
@@ -189,19 +192,19 @@ printf("%8.5s", "AhmedAli"); //    Ahmed
 
 ---
 
-## ❗ Common Mistakes
+# ❗ Common Mistakes
 
-### ❌ Wrong Order Thinking
+# ❌ Wrong Order Thinking
 
 > Applying width before precision
 
-### ✅ Correct
+# ✅ Correct
 
 > Precision → Width → Alignment
 
 ---
 
-## 🎯 Final Goal
+# 🎯 Final Goal
 
 > Be able to read any `printf` format and instantly know:
 
@@ -211,6 +214,17 @@ printf("%8.5s", "AhmedAli"); //    Ahmed
 
 ---
 
-## 🚀 Pro Tip
+# 🚀 Pro Tip
 
 > Clean formatting is a sign of a professional developer.
+
+---
+
+# 👨‍💻 Author
+Ahmed Darwish 🚀 🚀 Software Engineering Student
+I share my journey in learning programming, my projects, and my study summaries.
+🌐 Portfolio [https://darwish.xo.je](https://darwish.xo.je)
+💻 GitHub [https://github.com/dariwsh](https://github.com/dariwsh)
+🔗 LinkedIn [https://www.linkedin.com/in/ahmed-darwish-33b752330/](https://www.linkedin.com/in/ahmed-darwish-33b752330/)
+🤝 Any advice or feedback is always welcome, learning never stops.
+❤️ Thanks for visiting.

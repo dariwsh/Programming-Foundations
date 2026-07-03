@@ -1,16 +1,19 @@
+# 📘 Introduction
+In this lesson, we learned about:
+
 # 📘 C++ Notes - Miscellaneous & Ternary Operator
 
 ---
 
-## 🔹 1) Create Your Own Library
+# 🔹 1) Create Your Own Library
 
-### 💡 الفكرة:
+# 💡 الفكرة:
 
 بدل ما تكرر الكود في كل ملف، تقدر تعمل **Library خاصة بيك** وتحط فيها functions.
 
 ---
 
-### 🧠 الخطوات:
+# 🧠 الخطوات:
 
 1. إنشاء ملف Header (`.h`)
 2. كتابة functions جواه
@@ -18,7 +21,7 @@
 
 ---
 
-### 📌 مثال:
+# 📌 مثال:
 
 ```cpp
 #pragma once
@@ -39,15 +42,15 @@ namespace MyLib
 
 ---
 
-### 📌 الاستخدام:
+# 📌 الاستخدام:
 
-#### ✔ الطريقة الآمنة:
+# ✔ الطريقة الآمنة:
 
 ```cpp
 MyLib::Test();
 ```
 
-#### ❌ الطريقة السهلة (مش مفضلة):
+# ❌ الطريقة السهلة (مش مفضلة):
 
 ```cpp
 using namespace MyLib;
@@ -56,22 +59,22 @@ Test();
 
 ---
 
-### ⚠️ ملاحظات:
+# ⚠️ ملاحظات:
 
 * `namespace` بيمنع تعارض الأسماء
 * الأفضل تستخدم `::` علشان الأمان
 
 ---
 
-## 🔹 2) Ternary Operator (Short IF)
+# 🔹 2) Ternary Operator (Short IF)
 
-### 💡 الفكرة:
+# 💡 الفكرة:
 
 اختصار سريع لـ `if - else`
 
 ---
 
-### 🧠 الشكل العام:
+# 🧠 الشكل العام:
 
 ```cpp
 (condition) ? value_if_true : value_if_false;
@@ -79,7 +82,7 @@ Test();
 
 ---
 
-### 📌 مثال بسيط:
+# 📌 مثال بسيط:
 
 ```cpp
 int x = 5;
@@ -88,7 +91,7 @@ int x = 5;
 
 ---
 
-### 📌 مثال باستخدام متغير:
+# 📌 مثال باستخدام متغير:
 
 ```cpp
 string result;
@@ -97,7 +100,7 @@ result = (x == 0) ? "Zero" : (x > 0) ? "Positive" : "Negative";
 
 ---
 
-### ⚠️ ملاحظات:
+# ⚠️ ملاحظات:
 
 * ينفع تستخدم function داخل ternary
 * ينفع nested ternary (جوا بعض)
@@ -105,7 +108,7 @@ result = (x == 0) ? "Zero" : (x > 0) ? "Positive" : "Negative";
 
 ---
 
-## 🧠 Quick Comparison
+# 🧠 Quick Comparison
 
 | if - else             | ternary               |
 | --------------------- | --------------------- |
@@ -115,10 +118,19 @@ result = (x == 0) ? "Zero" : (x > 0) ? "Positive" : "Negative";
 
 ---
 
-## 🎯 Summary
+# 🎯 Summary
 
 * Library = إعادة استخدام الكود
 * namespace = تنظيم + منع تعارض
 * `::` = استخدام آمن
 
-Ahmed Darwish
+---
+
+# 👨‍💻 Author
+Ahmed Darwish 🚀 🚀 Software Engineering Student
+I share my journey in learning programming, my projects, and my study summaries.
+🌐 Portfolio [https://darwish.xo.je](https://darwish.xo.je)
+💻 GitHub [https://github.com/dariwsh](https://github.com/dariwsh)
+🔗 LinkedIn [https://www.linkedin.com/in/ahmed-darwish-33b752330/](https://www.linkedin.com/in/ahmed-darwish-33b752330/)
+🤝 Any advice or feedback is always welcome, learning never stops.
+❤️ Thanks for visiting.

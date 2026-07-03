@@ -1,17 +1,20 @@
+# 📘 Introduction
+In this lesson, we learned about:
+
 # 📘 C++ Lesson — Float Formatting (printf)
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 Ahmed Darwish
 
 ---
 
-## 📌 Overview
+# 📌 Overview
 
 This lesson explains how to format floating-point numbers using `printf`.
 
 ---
 
-## 🧠 Key Concepts
+# 🧠 Key Concepts
 
 - Control decimal precision  
 - Control total width  
@@ -19,7 +22,7 @@ This lesson explains how to format floating-point numbers using `printf`.
 
 ---
 
-## 🔧 Syntax
+# 🔧 Syntax
 
 ```cpp
 printf("%f", value);
@@ -27,9 +30,9 @@ printf("%f", value);
 
 ---
 
-## 🔹 Examples
+# 🔹 Examples
 
-### 1. Default
+# 1. Default
 ```cpp
 printf("%f", 3.14);
 ```
@@ -40,7 +43,7 @@ Output:
 
 ---
 
-### 2. Precision
+# 2. Precision
 ```cpp
 printf("%.2f", 3.14159);
 ```
@@ -51,7 +54,7 @@ Output:
 
 ---
 
-### 3. Rounding
+# 3. Rounding
 ```cpp
 printf("%.3f", 3.14159);
 ```
@@ -62,7 +65,7 @@ Output:
 
 ---
 
-### 4. Width + Precision
+# 4. Width + Precision
 ```cpp
 printf("%8.2f", 3.14);
 ```
@@ -73,7 +76,7 @@ Output:
 
 ---
 
-### 5. Zero Padding
+# 5. Zero Padding
 ```cpp
 printf("%08.2f", 3.14);
 ```
@@ -84,7 +87,7 @@ Output:
 
 ---
 
-### 6. Left Align
+# 6. Left Align
 ```cpp
 printf("%-8.2f", 3.14);
 ```
@@ -95,7 +98,7 @@ Output:
 
 ---
 
-## 💡 Rules
+# 💡 Rules
 
 - `.N` → decimal places  
 - width → total length  
@@ -103,12 +106,23 @@ Output:
 
 ---
 
-## 🎯 Goal
+# 🎯 Goal
 
 Write clean and professional numeric output.
 
 ---
 
-## 🚀 Tip
+# 🚀 Tip
 
 > Formatting makes your program readable and professional.
+
+---
+
+# 👨‍💻 Author
+Ahmed Darwish 🚀 🚀 Software Engineering Student
+I share my journey in learning programming, my projects, and my study summaries.
+🌐 Portfolio [https://darwish.xo.je](https://darwish.xo.je)
+💻 GitHub [https://github.com/dariwsh](https://github.com/dariwsh)
+🔗 LinkedIn [https://www.linkedin.com/in/ahmed-darwish-33b752330/](https://www.linkedin.com/in/ahmed-darwish-33b752330/)
+🤝 Any advice or feedback is always welcome, learning never stops.
+❤️ Thanks for visiting.

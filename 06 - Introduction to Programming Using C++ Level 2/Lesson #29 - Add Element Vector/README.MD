@@ -1,3 +1,6 @@
+# 📘 Introduction
+In this lesson, we learned about:
+
 # 📘 C++ Lesson — Vector Input & Output
 
 <p align="center">
@@ -8,13 +11,13 @@
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 Ahmed Darwish
 
 ---
 
-## 📌 Overview
+# 📌 Overview
 
 This lesson demonstrates how to:
 
@@ -26,13 +29,13 @@ This lesson demonstrates how to:
 
 ---
 
-## 🧠 Key Idea
+# 🧠 Key Idea
 
 > Vector allows continuous input without knowing the size in advance
 
 ---
 
-## 🔹 Read Data into Vector
+# 🔹 Read Data into Vector
 
 ```cpp
 void ReadVector(vector<int> &Vnumber)
@@ -56,7 +59,7 @@ void ReadVector(vector<int> &Vnumber)
 
 ---
 
-## 🔹 Print Vector
+# 🔹 Print Vector
 
 ```cpp
 void PrintVector(vector<int> &Vnumber)
@@ -74,7 +77,7 @@ void PrintVector(vector<int> &Vnumber)
 
 ---
 
-## 🔹 Main Function
+# 🔹 Main Function
 
 ```cpp
 int main()
@@ -90,7 +93,7 @@ int main()
 
 ---
 
-## 🧠 Concepts Used
+# 🧠 Concepts Used
 
 * `vector<int>` → dynamic storage
 * `push_back()` → add elements
@@ -99,7 +102,7 @@ int main()
 
 ---
 
-## 🔥 How It Works
+# 🔥 How It Works
 
 ```text
 User enters numbers → stored in vector
@@ -109,7 +112,7 @@ Then all numbers are printed
 
 ---
 
-## 💣 Important Notes
+# 💣 Important Notes
 
 * Always use reference (`&`) with vectors in functions
 * Avoid copying vectors (performance issue)
@@ -117,7 +120,7 @@ Then all numbers are printed
 
 ---
 
-## 🧪 Example Run
+# 💡 Practical Details
 
 ```
 Please Enter A Number: 10
@@ -130,14 +133,25 @@ The Vector: 10 20
 
 ---
 
-## 🎯 Goal
+# 🎯 Goal
 
 > Learn how to build interactive programs using vectors
 
 ---
 
-## 🚀 Next Step
+# 🚀 Next Step
 
 * Add validation (only numbers)
 * Calculate sum / average
 * Search inside vector
+
+---
+
+# 👨‍💻 Author
+Ahmed Darwish 🚀 🚀 Software Engineering Student
+I share my journey in learning programming, my projects, and my study summaries.
+🌐 Portfolio [https://darwish.xo.je](https://darwish.xo.je)
+💻 GitHub [https://github.com/dariwsh](https://github.com/dariwsh)
+🔗 LinkedIn [https://www.linkedin.com/in/ahmed-darwish-33b752330/](https://www.linkedin.com/in/ahmed-darwish-33b752330/)
+🤝 Any advice or feedback is always welcome, learning never stops.
+❤️ Thanks for visiting.

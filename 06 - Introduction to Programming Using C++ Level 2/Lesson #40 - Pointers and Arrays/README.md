@@ -1,3 +1,6 @@
+# 📘 Introduction
+In this lesson, we learned about:
+
 # 📘 C++ Lesson 40 — Pointers and Arrays
 
 <p align="center">
@@ -8,13 +11,13 @@
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 Ahmed Darwish
 
 ---
 
-## 📌 Overview
+# 📌 Overview
 
 This lesson explains the deep relationship between:
 
@@ -25,13 +28,13 @@ This lesson explains the deep relationship between:
 
 ---
 
-## 🧠 Core Idea
+# 🧠 Concepts Covered
 
 > Array name is the address of the first element.
 
 ---
 
-## 🔹 Example
+# 🔹 Example
 
 ```cpp id="x1jlwm"
 int arr[4] = {10,20,30,40};
@@ -41,7 +44,7 @@ int *ptr = arr;
 
 ---
 
-## 🔥 Pointer Arithmetic
+# 🔥 Pointer Arithmetic
 
 | Expression | Meaning                  |
 | ---------- | ------------------------ |
@@ -51,7 +54,7 @@ int *ptr = arr;
 
 ---
 
-## 🧪 Example
+# 💡 Practical Details
 
 ```cpp id="z4jlwm"
 cout << *(ptr + 2);
@@ -59,7 +62,7 @@ cout << *(ptr + 2);
 
 ---
 
-## 🎯 Output
+# 🎯 Output
 
 ```text id="v8jlwm"
 30
@@ -67,7 +70,7 @@ cout << *(ptr + 2);
 
 ---
 
-## 🧠 Important Insight
+# 🧠 Important Insight
 
 ```text id="b2jlwm"
 arr[i]
@@ -77,7 +80,7 @@ arr[i]
 
 ---
 
-## ⚠️ Important Notes
+# 🔥 Pro Tips & Rules
 
 * Pointer arithmetic depends on data type size
 * Arrays and pointers are closely related
@@ -85,8 +88,19 @@ arr[i]
 
 ---
 
-## 🚀 Next Step
+# 🚀 Next Step
 
 * Pointer Arithmetic Advanced
 * Dynamic Arrays
 * Memory Traversal
+
+---
+
+# 👨‍💻 Author
+Ahmed Darwish 🚀 🚀 Software Engineering Student
+I share my journey in learning programming, my projects, and my study summaries.
+🌐 Portfolio [https://darwish.xo.je](https://darwish.xo.je)
+💻 GitHub [https://github.com/dariwsh](https://github.com/dariwsh)
+🔗 LinkedIn [https://www.linkedin.com/in/ahmed-darwish-33b752330/](https://www.linkedin.com/in/ahmed-darwish-33b752330/)
+🤝 Any advice or feedback is always welcome, learning never stops.
+❤️ Thanks for visiting.

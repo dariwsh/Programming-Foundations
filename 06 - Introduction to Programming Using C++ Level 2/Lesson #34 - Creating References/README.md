@@ -1,3 +1,6 @@
+# 📘 Introduction
+In this lesson, we learned about:
+
 # 📘 C++ Lesson 34 — Creating References
 
 <p align="center">
@@ -8,13 +11,13 @@
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 Ahmed Darwish
 
 ---
 
-## 📌 Overview
+# 📌 Overview
 
 This lesson explains how to create and use **References** in C++.
 
@@ -22,7 +25,7 @@ This lesson explains how to create and use **References** in C++.
 
 ---
 
-## 🧠 What is a Reference?
+# 🧠 Concepts Covered
 
 A reference is:
 
@@ -30,7 +33,7 @@ A reference is:
 
 ---
 
-## 🔹 Syntax
+# 🔹 Syntax
 
 ```cpp
 int a = 10;
@@ -39,14 +42,14 @@ int &x = a;
 
 ---
 
-## 🔹 Key Behavior
+# 🔹 Key Behavior
 
 * `x` and `a` refer to the same memory
 * Any change to one affects the other
 
 ---
 
-## 🧪 Example
+# 💡 Practical Details
 
 ```cpp
 int a = 10;
@@ -59,7 +62,7 @@ cout << a;
 
 ---
 
-## 🎯 Output
+# 🎯 Output
 
 ```
 50
@@ -67,13 +70,13 @@ cout << a;
 
 ---
 
-## 🔥 Core Rule
+# 🔥 Core Rule
 
 > Reference does NOT create a copy — it shares the same address
 
 ---
 
-## 🧠 Memory Insight
+# 🧠 Memory Insight
 
 ```
 a  ---> 10
@@ -82,9 +85,9 @@ x  ---> same address
 
 ---
 
-## 🔴 Rules
+# 🔴 Rules
 
-### 1. Must be initialized
+# 1. Must be initialized
 
 ```cpp
 int &x; // ❌ ERROR
@@ -92,7 +95,7 @@ int &x; // ❌ ERROR
 
 ---
 
-### 2. Cannot be reassigned
+# 2. Cannot be reassigned
 
 ```cpp
 int a = 10, b = 20;
@@ -103,7 +106,7 @@ x = b; // changes value of a, not reference
 
 ---
 
-## 🔹 Multiple References
+# 🔹 Multiple References
 
 ```cpp
 int a = 10;
@@ -115,7 +118,7 @@ int &y = x;
 
 ---
 
-## 🔹 Comparison
+# 🔹 Comparison
 
 | Type       | Behavior  |
 | ---------- | --------- |
@@ -124,7 +127,7 @@ int &y = x;
 
 ---
 
-## 🔹 Common Uses
+# 🔹 Common Uses
 
 * Function parameters
 * Vectors & loops
@@ -132,20 +135,31 @@ int &y = x;
 
 ---
 
-## 💣 Important Note
+# 💣 Important Note
 
 > Reference can modify original data directly
 
 ---
 
-## 🎯 Goal
+# 🎯 Goal
 
 Master memory-level thinking in C++
 
 ---
 
-## 🚀 Next Step
+# 🚀 Next Step
 
 * Const Reference
 * Pointer vs Reference
 * Advanced memory control
+
+---
+
+# 👨‍💻 Author
+Ahmed Darwish 🚀 🚀 Software Engineering Student
+I share my journey in learning programming, my projects, and my study summaries.
+🌐 Portfolio [https://darwish.xo.je](https://darwish.xo.je)
+💻 GitHub [https://github.com/dariwsh](https://github.com/dariwsh)
+🔗 LinkedIn [https://www.linkedin.com/in/ahmed-darwish-33b752330/](https://www.linkedin.com/in/ahmed-darwish-33b752330/)
+🤝 Any advice or feedback is always welcome, learning never stops.
+❤️ Thanks for visiting.

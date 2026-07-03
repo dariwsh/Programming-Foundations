@@ -1,12 +1,15 @@
+# 📘 Introduction
+In this lesson, we learned about:
+
 # 📘 Bitwise OR Operator (|) — Lesson #13
 
-## 🧠 Introduction
+# 🧠 Introduction
 
 The Bitwise OR operator (`|`) works on the **binary representation (bits)** of numbers. It compares each bit of two numbers and returns `1` if **at least one of the bits is 1**.
 
 ---
 
-## ⚙️ How it works
+# ⚙️ How it works
 
 For each bit position:
 
@@ -21,7 +24,7 @@ For each bit position:
 
 ---
 
-## 🔢 Example
+# 🔢 Example
 
 ```
 12 = 1100
@@ -38,7 +41,7 @@ For each bit position:
 
 ---
 
-## 💻 C++ Example
+# 💻 C++ Example
 
 ```cpp
 #include <iostream>
@@ -59,9 +62,9 @@ int main()
 
 ---
 
-## 🎯 Uses of Bitwise OR
+# 🎯 Uses of Bitwise OR
 
-### 1) Flags / Permissions
+# 1) Flags / Permissions
 
 Used to combine multiple options into a single variable.
 
@@ -74,13 +77,13 @@ int permissions = READ | WRITE; // 011
 
 ---
 
-### 2) Feature Combination
+# 2) Feature Combination
 
 Used in systems to enable multiple settings at once.
 
 ---
 
-## ⚠️ Important Difference
+# ⚠️ Important Difference
 
 | Operator | Meaning |                               |                           |
 | -------- | ------- | ----------------------------- | ------------------------- |
@@ -89,17 +92,25 @@ Used in systems to enable multiple settings at once.
 
 ---
 
-## 📌 Key Idea
+# 📌 Key Idea
 
 > Bitwise OR sets the result bit to 1 if any input bit is 1
 
 ---
 
-## 🚀 Summary
+# 🚀 Summary
 
 * Works on binary representation
 * Used to combine values and flags
 * Important in C++ and low-level programming
 
+---
 
-Ahmed Darwish
+# 👨‍💻 Author
+Ahmed Darwish 🚀 🚀 Software Engineering Student
+I share my journey in learning programming, my projects, and my study summaries.
+🌐 Portfolio [https://darwish.xo.je](https://darwish.xo.je)
+💻 GitHub [https://github.com/dariwsh](https://github.com/dariwsh)
+🔗 LinkedIn [https://www.linkedin.com/in/ahmed-darwish-33b752330/](https://www.linkedin.com/in/ahmed-darwish-33b752330/)
+🤝 Any advice or feedback is always welcome, learning never stops.
+❤️ Thanks for visiting.

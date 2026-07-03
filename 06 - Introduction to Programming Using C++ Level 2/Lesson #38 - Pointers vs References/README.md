@@ -1,3 +1,6 @@
+# 📘 Introduction
+In this lesson, we learned about:
+
 # 📘 C++ Lesson 38 — Pointers vs References
 
 <p align="center">
@@ -8,13 +11,13 @@
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 Ahmed Darwish
 
 ---
 
-## 📌 Overview
+# 📌 Overview
 
 This lesson explains the deep difference between:
 
@@ -25,7 +28,7 @@ and when to use each one professionally.
 
 ---
 
-## 🧠 Core Difference
+# 🧠 Core Difference
 
 | Pointer            | Reference            |
 | ------------------ | -------------------- |
@@ -36,14 +39,14 @@ and when to use each one professionally.
 
 ---
 
-## 🔥 Key Idea
+# 🔥 Key Idea
 
 > Reference = safer alias
 > Pointer = memory manipulation tool
 
 ---
 
-## 🧪 Example
+# 💡 Practical Details
 
 ```cpp id="x1frwp"
 int a = 10;
@@ -54,7 +57,7 @@ int &r = a;
 
 ---
 
-## ⚠️ Important Concepts
+# ⚠️ Important Concepts
 
 * Dereferencing
 * Memory ownership
@@ -63,7 +66,7 @@ int &r = a;
 
 ---
 
-## 🧠 Professional Insight
+# 🧠 Professional Insight
 
 Modern C++ prefers:
 
@@ -72,8 +75,19 @@ Modern C++ prefers:
 
 ---
 
-## 🚀 Next Step
+# 🚀 Next Step
 
 * Pointer Arithmetic
 * Arrays & Pointers
 * Dynamic Memory
+
+---
+
+# 👨‍💻 Author
+Ahmed Darwish 🚀 🚀 Software Engineering Student
+I share my journey in learning programming, my projects, and my study summaries.
+🌐 Portfolio [https://darwish.xo.je](https://darwish.xo.je)
+💻 GitHub [https://github.com/dariwsh](https://github.com/dariwsh)
+🔗 LinkedIn [https://www.linkedin.com/in/ahmed-darwish-33b752330/](https://www.linkedin.com/in/ahmed-darwish-33b752330/)
+🤝 Any advice or feedback is always welcome, learning never stops.
+❤️ Thanks for visiting.

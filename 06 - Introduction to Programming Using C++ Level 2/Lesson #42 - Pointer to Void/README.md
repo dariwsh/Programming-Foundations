@@ -1,3 +1,6 @@
+# 📘 Introduction
+In this lesson, we learned about:
+
 # 📘 C++ Lesson 42 — Void Pointer (`void*`)
 
 <p align="center">
@@ -87,7 +90,7 @@ Compiler does not know it is float
 
 ---
 
-## ❌ Wrong
+# ❌ Wrong
 
 ```cpp id="t6m1qx"
 *ptr
@@ -225,7 +228,7 @@ int *p = (int*)malloc(sizeof(int));
 
 ---
 
-## ❌ Wrong Cast
+# ❌ Wrong Cast
 
 ```cpp id="s5m8zw"
 float x = 10.5;
@@ -343,3 +346,14 @@ int main()
 <p align="center">
   Made with ❤️ by Ahmed Darwish
 </p>
+
+---
+
+# 👨‍💻 Author
+Ahmed Darwish 🚀 🚀 Software Engineering Student
+I share my journey in learning programming, my projects, and my study summaries.
+🌐 Portfolio [https://darwish.xo.je](https://darwish.xo.je)
+💻 GitHub [https://github.com/dariwsh](https://github.com/dariwsh)
+🔗 LinkedIn [https://www.linkedin.com/in/ahmed-darwish-33b752330/](https://www.linkedin.com/in/ahmed-darwish-33b752330/)
+🤝 Any advice or feedback is always welcome, learning never stops.
+❤️ Thanks for visiting.

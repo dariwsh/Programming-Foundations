@@ -1,3 +1,6 @@
+# 📘 Introduction
+In this lesson, we learned about:
+
 # 📘 C++ Lesson 41 — Pointers with Structs
 
 <p align="center">
@@ -184,7 +187,7 @@ Mohammed Abu-Hadhoud
 
 ---
 
-## ❌ Wrong
+# ❌ Wrong
 
 ```cpp id="b2q7vx"
 ptr.Name
@@ -192,7 +195,7 @@ ptr.Name
 
 ---
 
-## ✔️ Correct
+# ✔️ Correct
 
 ```cpp id="j9w4kn"
 ptr->Name
@@ -253,3 +256,14 @@ Pointers to structs are heavily used in:
 <p align="center">
   Made with ❤️ by Ahmed Darwish
 </p>
+
+---
+
+# 👨‍💻 Author
+Ahmed Darwish 🚀 🚀 Software Engineering Student
+I share my journey in learning programming, my projects, and my study summaries.
+🌐 Portfolio [https://darwish.xo.je](https://darwish.xo.je)
+💻 GitHub [https://github.com/dariwsh](https://github.com/dariwsh)
+🔗 LinkedIn [https://www.linkedin.com/in/ahmed-darwish-33b752330/](https://www.linkedin.com/in/ahmed-darwish-33b752330/)
+🤝 Any advice or feedback is always welcome, learning never stops.
+❤️ Thanks for visiting.

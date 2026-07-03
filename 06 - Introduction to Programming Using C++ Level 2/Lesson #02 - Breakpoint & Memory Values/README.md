@@ -1,15 +1,18 @@
+# 📘 Introduction
+In this lesson, we learned about:
+
 # C++ Debugging Practice - Breakpoints & Memory Values
 
-## Overview
+# 🎯 Main Idea
 This project is a simple C++ practice program created to demonstrate fundamental debugging concepts using Visual Studio Debugger.
 
 It focuses on tracking variable values in memory, using breakpoints, tracing loops, and debugging function calls step by step.
 
 ---
 
-## Concepts Covered
+# 🧠 Concepts Covered
 
-### 1. Breakpoints
+# 1. Breakpoints
 Learn how to pause program execution at specific lines and inspect variable values.
 
 Example breakpoint locations
@@ -23,7 +26,7 @@ c = MySum(a, b);
 
 ---
 
-## 2. Memory Values Tracking
+# 💡 Practical Details
 Monitor how variables change during execution
 
 ```cpp
@@ -39,7 +42,7 @@ Use
 
 ---
 
-## 3. Increment Operators
+# 💡 Practical Details
 
 ```cpp
 a++;
@@ -52,7 +55,7 @@ Practice understanding
 
 ---
 
-## 4. Loop Debugging
+# 💡 Practical Details
 Trace the `for` loop step by step
 
 ```cpp
@@ -69,7 +72,7 @@ Inspect
 
 ---
 
-## 5. Function Debugging
+# 💡 Practical Details
 Debug function calls using Step Into (F11)
 
 ```cpp
@@ -88,7 +91,7 @@ int MySum(int a, int b)
 
 ---
 
-## Debugging Tools Used
+# ✨ Key Features & Tools
 
 - Breakpoints
 - Step Into (F11)
@@ -99,7 +102,7 @@ int MySum(int a, int b)
 
 ---
 
-## Final Output
+# Final Output
 
 ```text
 11
@@ -115,7 +118,7 @@ int MySum(int a, int b)
 
 ---
 
-## Learning Goal
+# Learning Goal
 This project is intended for beginners learning
 
 - C++ Debugging
@@ -126,5 +129,11 @@ This project is intended for beginners learning
 
 ---
 
-## Author
-Ahmed
+# 👨‍💻 Author
+Ahmed Darwish 🚀 🚀 Software Engineering Student
+I share my journey in learning programming, my projects, and my study summaries.
+🌐 Portfolio [https://darwish.xo.je](https://darwish.xo.je)
+💻 GitHub [https://github.com/dariwsh](https://github.com/dariwsh)
+🔗 LinkedIn [https://www.linkedin.com/in/ahmed-darwish-33b752330/](https://www.linkedin.com/in/ahmed-darwish-33b752330/)
+🤝 Any advice or feedback is always welcome, learning never stops.
+❤️ Thanks for visiting.

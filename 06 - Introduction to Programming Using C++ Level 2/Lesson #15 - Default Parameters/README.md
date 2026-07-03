@@ -1,22 +1,25 @@
+# 📘 Introduction
+In this lesson, we learned about:
+
 # 📘 C++ Lesson — Default Parameters
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 Ahmed Darwish
 
 ---
 
-## 📌 Overview
+# 📌 Overview
 This lesson explains how to use **default parameters** in C++ functions to provide optional values.
 
 ---
 
-## 🧠 Core Idea
+# 🧠 Concepts Covered
 
 > Default parameters allow functions to be called with fewer arguments.
 
 ---
 
-## 🔹 Syntax
+# 🔹 Syntax
 
 ```cpp
 void Function(type param = value);
@@ -24,7 +27,7 @@ void Function(type param = value);
 
 ---
 
-## 🔧 Example
+# 🔧 Example
 
 ```cpp
 #include <iostream>
@@ -44,9 +47,9 @@ int main()
 
 ---
 
-## ⚠️ Rules
+# ⚠️ Rules
 
-### 1️⃣ Default parameters must be at the end
+# 1️⃣ Default parameters must be at the end
 
 ```cpp
 // ❌ Wrong
@@ -58,7 +61,7 @@ void Test(int a, int b = 1);
 
 ---
 
-### 2️⃣ If one parameter has default, all after it must also have default
+# 2️⃣ If one parameter has default, all after it must also have default
 
 ```cpp
 // ✔️ Correct
@@ -67,7 +70,7 @@ void Test(int a = 1, int b = 2);
 
 ---
 
-### 3️⃣ Write default values only once (usually in declaration)
+# 3️⃣ Write default values only once (usually in declaration)
 
 ```cpp
 void Sum(int a, int b = 5); // declaration
@@ -80,7 +83,7 @@ void Sum(int a, int b)      // definition
 
 ---
 
-## ❌ Common Mistakes
+# ❌ Common Mistakes
 
 - Using default parameter before non-default  
 - Repeating default value in definition  
@@ -88,7 +91,7 @@ void Sum(int a, int b)      // definition
 
 ---
 
-## 🧠 Key Takeaways
+# 🧠 Key Takeaways
 
 - Default = optional value  
 - Order matters  
@@ -96,6 +99,17 @@ void Sum(int a, int b)      // definition
 
 ---
 
-## 🎯 Goal
+# 🎯 Goal
 
 Write flexible and clean functions with optional parameters.
+
+---
+
+# 👨‍💻 Author
+Ahmed Darwish 🚀 🚀 Software Engineering Student
+I share my journey in learning programming, my projects, and my study summaries.
+🌐 Portfolio [https://darwish.xo.je](https://darwish.xo.je)
+💻 GitHub [https://github.com/dariwsh](https://github.com/dariwsh)
+🔗 LinkedIn [https://www.linkedin.com/in/ahmed-darwish-33b752330/](https://www.linkedin.com/in/ahmed-darwish-33b752330/)
+🤝 Any advice or feedback is always welcome, learning never stops.
+❤️ Thanks for visiting.

@@ -1,23 +1,26 @@
+# 📘 Introduction
+In this lesson, we learned about:
+
 # 📘 C++ Lesson 01 — Printing Integers (printf)
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 Ahmed Darwish
 
 ---
 
-## 📌 Overview
+# 📌 Overview
 
 This lesson focuses on formatting integers using `printf` in C/C++.
 
 ---
 
-## 🧠 Why It Matters
+# 🧠 Why It Matters
 
 > Clean output = readable programs
 
 ---
 
-## 🔧 Syntax
+# 🔧 Syntax
 
 ```cpp
 printf("%d", value);
@@ -25,16 +28,16 @@ printf("%d", value);
 
 ---
 
-## 🔹 Formatting Options
+# 🔹 Formatting Options
 
-### 1. Basic Print
+# 1. Basic Print
 ```cpp
 printf("%d", 10);
 ```
 
 ---
 
-### 2. Width
+# 2. Width
 ```cpp
 printf("%5d", 12);
 ```
@@ -45,7 +48,7 @@ Output:
 
 ---
 
-### 3. Zero Padding
+# 3. Zero Padding
 ```cpp
 printf("%05d", 12);
 ```
@@ -56,7 +59,7 @@ Output:
 
 ---
 
-### 4. Left Alignment
+# 4. Left Alignment
 ```cpp
 printf("%-5d", 12);
 ```
@@ -67,7 +70,7 @@ Output:
 
 ---
 
-### 5. Large Numbers
+# 5. Large Numbers
 ```cpp
 printf("%3d", 12345);
 ```
@@ -78,7 +81,7 @@ Output:
 
 ---
 
-## 💡 Key Rules
+# 💡 Key Rules
 
 - Width defines total space  
 - `0` adds zeros  
@@ -87,13 +90,13 @@ Output:
 
 ---
 
-## 🎯 Goal
+# 🎯 Goal
 
 Master integer formatting for clean and structured output.
 
 ---
 
-## 🚀 Example
+# 🚀 Example
 
 ```cpp
 #include <stdio.h>
@@ -108,6 +111,17 @@ int main()
 
 ---
 
-## 🔥 Tip
+# 🔥 Tip
 
 > Formatting is not optional — it’s professional.
+
+---
+
+# 👨‍💻 Author
+Ahmed Darwish 🚀 🚀 Software Engineering Student
+I share my journey in learning programming, my projects, and my study summaries.
+🌐 Portfolio [https://darwish.xo.je](https://darwish.xo.je)
+💻 GitHub [https://github.com/dariwsh](https://github.com/dariwsh)
+🔗 LinkedIn [https://www.linkedin.com/in/ahmed-darwish-33b752330/](https://www.linkedin.com/in/ahmed-darwish-33b752330/)
+🤝 Any advice or feedback is always welcome, learning never stops.
+❤️ Thanks for visiting.

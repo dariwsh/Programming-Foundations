@@ -1,144 +1,35 @@
-# 🧪 C++ Quiz — Default Parameters
+# C++ Quiz — Default Parameters
 
 ## 👨‍💻 Author
 Ahmed Darwish
 
 ---
 
-## 📌 Topics Covered
-- Default Parameters
-- Function Calls
-- Parameter Order
-- Common Errors
+## 🧠 Interactive Quiz
 
----
+**Question:** Which of the following is correct about default parameters in C++?
 
-## 🧠 Quiz Objective
+<details>
+<summary><b>Option A:</b> They must be defined in both declaration and definition.</summary>
 
-> Test your understanding of how default parameters work in real scenarios.
+❌ <b>Incorrect!</b> Default parameters should only be specified in the function declaration (or definition if no declaration exists) to avoid errors.
+</details>
 
----
+<details>
+<summary><b>Option B:</b> They must be placed at the rightmost end of the parameter list.</summary>
 
-## 🟢 Level 1 — Basics
+✅ <b>Correct!</b> Correct! All parameters with default values must be at the end of the argument list (from right to left).
+</details>
 
-### Q1
-```cpp
-void Test(int a = 1, int b = 2);
+<details>
+<summary><b>Option C:</b> You can place default parameters at the beginning of the list.</summary>
 
-Test(5);
-```
+❌ <b>Incorrect!</b> This would raise a compilation error; compiler resolves values positionally.
+</details>
 
-❓ What are the values of `a` and `b`?
+<details>
+<summary><b>Option D:</b> They cannot be used with integers.</summary>
 
----
+❌ <b>Incorrect!</b> Default parameters can be of any data type.
+</details>
 
-### Q2
-```cpp
-void Test(int a = 1, int b);
-
-Test(5);
-```
-
-❓ Is this code valid? Why?
-
----
-
-## 🔵 Level 2 — Understanding
-
-### Q3
-```cpp
-void Sum(int a, int b = 10);
-
-int main()
-{
-    Sum(5);
-}
-```
-
-❓ Will this produce output? Why?
-
----
-
-### Q4
-```cpp
-void Test(int a = 1, int b = 2);
-
-Test();
-```
-
-❓ What values are used?
-
----
-
-## 🟡 Level 3 — Output Prediction
-
-### Q5
-```cpp
-void Sum(int a, int b = 5)
-{
-    cout << a + b;
-}
-
-int main()
-{
-    Sum(2, 3);
-    Sum(2);
-}
-```
-
-❓ What is the output?
-
----
-
-## 🔴 Level 4 — Advanced
-
-### Q6
-```cpp
-void Test(int a = 1, int b = 2, int c = 3);
-
-Test(5, 6);
-```
-
-❓ What are the values of `a`, `b`, and `c`?
-
----
-
-## ⚫ Level 5 — Debugging
-
-### Q7
-```cpp
-void Sum(int a, int b = 5);
-
-void Sum(int a, int b = 5)
-{
-    cout << a + b;
-}
-```
-
-❓ What is the problem in this code?
-
----
-
-## 🎯 What You Should Learn
-
-- Default parameters are optional values  
-- They must be placed at the end  
-- They are used during function calls  
-- They must not be repeated  
-
----
-
-## 💡 Hint
-
-> Default values are applied from right to left.
-
----
-
-## 🚀 Challenge
-
-Try writing your own function with 3 parameters:
-- Call it with 1 value  
-- Then 2 values  
-- Then all 3 values  
-
-Observe how default parameters behave.

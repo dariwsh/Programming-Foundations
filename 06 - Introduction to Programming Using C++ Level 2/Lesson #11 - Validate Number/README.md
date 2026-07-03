@@ -1,14 +1,16 @@
-# C++ Lesson — Input Validation
+# 📘 Introduction
+In this lesson, we learned about:
 
+# C++ Lesson — Input Validation
 
 ---
 
-## 📌 Overview
+# 📌 Overview
 This lesson explains how to safely read numbers from the user and prevent invalid input from breaking the program.
 
 ---
 
-## 🧠 Core Idea
+# 🧠 Concepts Covered
 > Never trust user input.
 
 Always validate:
@@ -17,7 +19,7 @@ Always validate:
 
 ---
 
-## 🔧 Basic Validation
+# 🔧 Basic Validation
 
 ```cpp
 while(!(cin >> num))
@@ -29,7 +31,7 @@ while(!(cin >> num))
 
 ---
 
-## 🔍 How It Works
+# 🔍 How It Works
 
 | Function | Purpose |
 |--------|--------|
@@ -40,7 +42,7 @@ while(!(cin >> num))
 
 ---
 
-## 🔁 Full Example (Best Practice)
+# 🔁 Full Example (Best Practice)
 
 ```cpp
 #include <iostream>
@@ -73,7 +75,7 @@ int main()
 
 ---
 
-## ⚠️ Common Mistakes
+# 🔥 Pro Tips & Rules
 
 - ❌ Using `cin >>` without validation  
 - ❌ Forgetting `cin.clear()`  
@@ -82,7 +84,7 @@ int main()
 
 ---
 
-## 💡 Key Takeaways
+# 💡 Key Takeaways
 
 - Validation prevents crashes  
 - Always clean the input buffer  
@@ -90,8 +92,16 @@ int main()
 
 ---
 
-## 🎯 Goal
+# 🎯 Goal
 Write safe and reliable programs that handle user input correctly.
 
-## 👨‍💻 Author
-Ahmed Darwish
+---
+
+# 👨‍💻 Author
+Ahmed Darwish 🚀 🚀 Software Engineering Student
+I share my journey in learning programming, my projects, and my study summaries.
+🌐 Portfolio [https://darwish.xo.je](https://darwish.xo.je)
+💻 GitHub [https://github.com/dariwsh](https://github.com/dariwsh)
+🔗 LinkedIn [https://www.linkedin.com/in/ahmed-darwish-33b752330/](https://www.linkedin.com/in/ahmed-darwish-33b752330/)
+🤝 Any advice or feedback is always welcome, learning never stops.
+❤️ Thanks for visiting.

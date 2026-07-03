@@ -1,149 +1,35 @@
-# 🧪 C++ Quiz — Declaration vs Definition
+# C++ Quiz — Declaration vs Definition
 
 ## 👨‍💻 Author
 Ahmed Darwish
 
 ---
 
-## 📌 Topics Covered
-- Function Declaration
-- Function Definition
-- Compiler behavior (Top → Bottom)
-- Common errors in function usage
+## 🧠 Interactive Quiz
 
----
+**Question:** What is the difference between a function declaration and a function definition in C++?
 
-## 🧠 الهدف من الكويز
+<details>
+<summary><b>Option A:</b> A declaration tells the compiler about the function's name and signature; a definition provides the actual function body.</summary>
 
-> التأكد من فهم الفرق بين declaration و definition  
-> مش الحفظ — الفهم
+✅ <b>Correct!</b> Correct! Declaration (prototype) informs the compiler of the function signature, while definition contains the body code.
+</details>
 
----
+<details>
+<summary><b>Option B:</b> Definition must come before declaration.</summary>
 
-## 🟢 Level 1 — Basics
+❌ <b>Incorrect!</b> No, declaration usually precedes definition if defined below main().
+</details>
 
-### Q1
-```cpp
-int main()
-{
-    Test();
-}
+<details>
+<summary><b>Option C:</b> Declaration executes code, while definition is just a prototype.</summary>
 
-void Test()
-{
-}
-```
+❌ <b>Incorrect!</b> It is the opposite; definition executes, declaration is the prototype.
+</details>
 
-❓ Why does this code produce an error?
+<details>
+<summary><b>Option D:</b> There is no difference in C++.</summary>
 
----
+❌ <b>Incorrect!</b> C++ requires declaration before usage to satisfy compilation rules.
+</details>
 
-### Q2
-Choose the correct declaration:
-
-A)
-```cpp
-void Test();
-```
-
-B)
-```cpp
-Test();
-```
-
----
-
-## 🔵 Level 2 — Understanding
-
-### Q3
-```cpp
-int Sum(int, int);
-```
-
-❓ Is this valid? Why?
-
----
-
-### Q4
-```cpp
-int main()
-{
-    Sum(2,3);
-}
-
-int Sum(int a, int b)
-{
-    return a + b;
-}
-```
-
-❓ Will this work? Explain.
-
----
-
-## 🟡 Level 3 — Fix the Code
-
-### Q5
-Fix the error:
-
-```cpp
-int main()
-{
-    Print();
-}
-
-void Print()
-{
-    cout << "Hello";
-}
-```
-
----
-
-## 🔴 Level 4 — Thinking
-
-### Q6
-What is the difference between:
-
-```cpp
-void Test();
-```
-
-and
-
-```cpp
-void Test()
-{
-}
-```
-
----
-
-## ⚫ Level 5 — Challenge
-
-### Q7
-Write a program that:
-- Declares a function above `main()`
-- Defines it below `main()`
-- Calls it inside `main()`
-
----
-
-## 🎯 What You Should Learn
-
-- Compiler reads top to bottom  
-- Declaration informs  
-- Definition executes  
-- Order matters  
-
----
-
-## 💡 Hint
-
-> If the function is below `main()`, you must declare it above.
-
----
-
-## 🚀 Goal
-
-Build strong understanding of how C++ handles functions internally.

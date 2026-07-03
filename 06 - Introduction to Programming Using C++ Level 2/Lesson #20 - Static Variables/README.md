@@ -1,10 +1,13 @@
+# 📘 Introduction
+In this lesson, we learned about:
+
 # 📘 Lesson 4 — More About Variables
 
 > Part of: [Programming Foundations – C++ Level 2](https://github.com/dariwsh/Programming-Foundations/tree/main/06%20-%20Introduction%20to%20Programming%20Using%20C%2B%2B%20Level%202)
 
 ---
 
-## 📋 Topics Covered
+# 📋 Topics Covered
 
 | # | Topic | Summary |
 |---|-------|---------|
@@ -14,7 +17,7 @@
 
 ---
 
-## 20 — Static Variables
+# 20 — Static Variables
 
 A `static` variable inside a function is **initialized only once** and retains its value across all subsequent calls.
 
@@ -32,7 +35,7 @@ int main() {
 }
 ```
 
-### Without `static` vs With `static`
+# Without `static` vs With `static`
 
 | Behavior | Normal Variable | Static Variable |
 |----------|----------------|-----------------|
@@ -41,14 +44,14 @@ int main() {
 | Lifetime | Lifetime of the function | Lifetime of the program |
 | Storage | Stack | Data Segment |
 
-### Key Rules
+# Key Rules
 - The `static` keyword is written once before the type: `static int x = 0;`
 - The variable is scoped to the function — not accessible from outside
 - Even if the function ends, the value stays in memory
 
 ---
 
-## 21 — Automatic Variables
+# 21 — Automatic Variables
 
 Normal local variables are called **automatic** — they are created when a block starts and destroyed when it ends.
 
@@ -64,7 +67,7 @@ int main() {
 
 ---
 
-## 22 — Register Variables
+# 22 — Register Variables
 
 A **register variable** is a hint to the compiler to store the variable in a CPU register for faster access.
 
@@ -78,7 +81,7 @@ void example() {
 
 ---
 
-## 📁 File Structure
+# 📁 File Structure
 
 ```
 Lesson 04 - More About Variables/
@@ -90,7 +93,18 @@ Lesson 04 - More About Variables/
 
 ---
 
-## 🔗 Resources
+# 🔗 Resources
 
 - [C++ Reference — Storage Duration](https://en.cppreference.com/w/cpp/language/storage_duration)
 - [C++ Reference — auto specifier](https://en.cppreference.com/w/cpp/language/auto)
+
+---
+
+# 👨‍💻 Author
+Ahmed Darwish 🚀 🚀 Software Engineering Student
+I share my journey in learning programming, my projects, and my study summaries.
+🌐 Portfolio [https://darwish.xo.je](https://darwish.xo.je)
+💻 GitHub [https://github.com/dariwsh](https://github.com/dariwsh)
+🔗 LinkedIn [https://www.linkedin.com/in/ahmed-darwish-33b752330/](https://www.linkedin.com/in/ahmed-darwish-33b752330/)
+🤝 Any advice or feedback is always welcome, learning never stops.
+❤️ Thanks for visiting.

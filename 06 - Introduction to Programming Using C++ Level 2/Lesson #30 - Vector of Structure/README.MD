@@ -1,3 +1,6 @@
+# 📘 Introduction
+In this lesson, we learned about:
+
 # 📘 C++ Lesson 30 — Vector of Struct
 
 <p align="center">
@@ -7,13 +10,13 @@
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 Ahmed Darwish
 
 ---
 
-## 📌 Overview
+# 📌 Overview
 
 This lesson demonstrates how to use a **vector of struct** to store multiple objects.
 
@@ -21,7 +24,7 @@ This lesson demonstrates how to use a **vector of struct** to store multiple obj
 
 ---
 
-## 🧠 Concept
+# 🧠 Concept
 
 ```text
 vector<struct> = dynamic list of objects
@@ -29,7 +32,7 @@ vector<struct> = dynamic list of objects
 
 ---
 
-## 🔹 Struct Definition
+# 🔹 Struct Definition
 
 ```cpp
 struct stEmployee{
@@ -41,7 +44,7 @@ struct stEmployee{
 
 ---
 
-## 🔹 Adding Data
+# 🔹 Adding Data
 
 ```cpp
 vector<stEmployee> Vemployee;
@@ -56,7 +59,7 @@ Vemployee.push_back(temp);
 
 ---
 
-## 🔹 Loop
+# 🔹 Loop
 
 ```cpp
 for (stEmployee &i : Vemployee)
@@ -67,7 +70,7 @@ for (stEmployee &i : Vemployee)
 
 ---
 
-## 🎯 Output Example
+# 🎯 Output Example
 
 ```text
 First Name : Ahmed
@@ -77,12 +80,23 @@ Salary     : 1000
 
 ---
 
-## 💣 Key Idea
+# 💣 Key Idea
 
 > Vector can store full objects, not just numbers
 
 ---
 
-## 🚀 Tip
+# 🚀 Tip
 
 Use reference (`&`) to avoid copying large objects
+
+---
+
+# 👨‍💻 Author
+Ahmed Darwish 🚀 🚀 Software Engineering Student
+I share my journey in learning programming, my projects, and my study summaries.
+🌐 Portfolio [https://darwish.xo.je](https://darwish.xo.je)
+💻 GitHub [https://github.com/dariwsh](https://github.com/dariwsh)
+🔗 LinkedIn [https://www.linkedin.com/in/ahmed-darwish-33b752330/](https://www.linkedin.com/in/ahmed-darwish-33b752330/)
+🤝 Any advice or feedback is always welcome, learning never stops.
+❤️ Thanks for visiting.

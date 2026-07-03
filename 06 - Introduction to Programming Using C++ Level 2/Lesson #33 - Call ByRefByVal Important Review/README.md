@@ -1,3 +1,6 @@
+# 📘 Introduction
+In this lesson, we learned about:
+
 # 📘 C++ Lesson 33 — Call By Value vs Call By Reference
 
 <p align="center">
@@ -8,13 +11,13 @@
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 Ahmed Darwish
 
 ---
 
-## 📌 Overview
+# 📌 Overview
 
 This lesson explains the difference between:
 
@@ -25,15 +28,15 @@ This lesson explains the difference between:
 
 ---
 
-## 🔴 Call By Value
+# 🔴 Call By Value
 
-### 🧠 Concept
+# 🧠 Concept
 
 > A copy of the variable is passed to the function
 
 ---
 
-### 🔹 Example
+# 🔹 Example
 
 ```cpp id="v1xk4m"
 void Increase(int x)
@@ -44,7 +47,7 @@ void Increase(int x)
 
 ---
 
-### 🔹 Usage
+# 🔹 Usage
 
 ```cpp id="u8pt5q"
 int a = 10;
@@ -54,7 +57,7 @@ cout << a;
 
 ---
 
-### 🎯 Output
+# 🎯 Output
 
 ```text id="z4sd3v"
 10
@@ -62,22 +65,22 @@ cout << a;
 
 ---
 
-### 💣 Explanation
+# 💣 Explanation
 
 * `x` is a copy of `a`
 * Changes do NOT affect original variable
 
 ---
 
-## 🔵 Call By Reference
+# 🔵 Call By Reference
 
-### 🧠 Concept
+# 🧠 Concept
 
 > The original variable is passed using reference
 
 ---
 
-### 🔹 Example
+# 🔹 Example
 
 ```cpp id="g7b8x1"
 void Increase(int &x)
@@ -88,7 +91,7 @@ void Increase(int &x)
 
 ---
 
-### 🔹 Usage
+# 🔹 Usage
 
 ```cpp id="6rxzme"
 int a = 10;
@@ -98,7 +101,7 @@ cout << a;
 
 ---
 
-### 🎯 Output
+# 🎯 Output
 
 ```text id="yw9h1g"
 11
@@ -106,14 +109,14 @@ cout << a;
 
 ---
 
-### 💣 Explanation
+# 💣 Explanation
 
 * `x` refers to the same memory as `a`
 * Changes affect the original variable
 
 ---
 
-## 🔥 Key Difference
+# 🔥 Key Difference
 
 | Feature          | By Value | By Reference |
 | ---------------- | -------- | ------------ |
@@ -123,9 +126,9 @@ cout << a;
 
 ---
 
-## 🧪 Example — Swap
+# 💡 Practical Details
 
-### ❌ By Value
+# ❌ By Value
 
 ```cpp id="j9e4mc"
 void Swap(int a, int b)
@@ -144,7 +147,7 @@ No change
 
 ---
 
-### ✔️ By Reference
+# ✔️ By Reference
 
 ```cpp id="r6ghmz"
 void Swap(int &a, int &b)
@@ -163,7 +166,7 @@ Values swapped
 
 ---
 
-## 🧠 Memory Insight
+# 🧠 Memory Insight
 
 ```text id="rdknv9"
 Variable = Name + Value + Address
@@ -171,7 +174,7 @@ Variable = Name + Value + Address
 
 ---
 
-## 💣 When to Use Reference?
+# 💣 When to Use Reference?
 
 * When you want to modify original data
 * When passing large data (vector, struct)
@@ -179,7 +182,7 @@ Variable = Name + Value + Address
 
 ---
 
-## ⚠️ Important Notes
+# 🔥 Pro Tips & Rules
 
 * Always use `&` carefully
 * Reference can change original data unexpectedly
@@ -187,14 +190,25 @@ Variable = Name + Value + Address
 
 ---
 
-## 🎯 Goal
+# 🎯 Goal
 
 > Master how functions interact with variables and memory
 
 ---
 
-## 🚀 Next Step
+# 🚀 Next Step
 
 * Passing vector by reference
 * Passing struct by reference
 * Advanced function design
+
+---
+
+# 👨‍💻 Author
+Ahmed Darwish 🚀 🚀 Software Engineering Student
+I share my journey in learning programming, my projects, and my study summaries.
+🌐 Portfolio [https://darwish.xo.je](https://darwish.xo.je)
+💻 GitHub [https://github.com/dariwsh](https://github.com/dariwsh)
+🔗 LinkedIn [https://www.linkedin.com/in/ahmed-darwish-33b752330/](https://www.linkedin.com/in/ahmed-darwish-33b752330/)
+🤝 Any advice or feedback is always welcome, learning never stops.
+❤️ Thanks for visiting.

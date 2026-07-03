@@ -1,6 +1,9 @@
+# 📘 Introduction
+In this lesson, we learned about:
+
 # C++ Debugging - Step Into / Step Over / Step Out
 
-## 📌 Overview
+# 📌 Overview
 This lesson explains how to control program execution during debugging using:
 
 - Step Into
@@ -9,9 +12,9 @@ This lesson explains how to control program execution during debugging using:
 
 ---
 
-## 🔧 Concepts
+# 🔧 Concepts
 
-### 🔹 Step Into (F11)
+# 🔹 Step Into (F11)
 Executes the current line and enters the function.
 
 Use when:
@@ -19,7 +22,7 @@ Use when:
 
 ---
 
-### 🔹 Step Over (F10)
+# 🔹 Step Over (F10)
 Executes the line without entering the function.
 
 Use when:
@@ -27,7 +30,7 @@ Use when:
 
 ---
 
-### 🔹 Step Out (Shift + F11)
+# 🔹 Step Out (Shift + F11)
 Exits the current function and returns to the caller.
 
 Use when:
@@ -35,7 +38,7 @@ Use when:
 
 ---
 
-## 🧠 Example
+# 🧠 Example
 
 ```cpp
 int result = add(3,4);
@@ -47,13 +50,19 @@ int result = add(3,4);
 
 ---
 
-## 🎯 Key Idea
+# 🎯 Key Idea
 
 - Into → go inside  
 - Over → skip  
-- Out → exit  
+- Out → exit
 
 ---
 
-## 👨‍💻 Author
-Ahmed Darwish
+# 👨‍💻 Author
+Ahmed Darwish 🚀 🚀 Software Engineering Student
+I share my journey in learning programming, my projects, and my study summaries.
+🌐 Portfolio [https://darwish.xo.je](https://darwish.xo.je)
+💻 GitHub [https://github.com/dariwsh](https://github.com/dariwsh)
+🔗 LinkedIn [https://www.linkedin.com/in/ahmed-darwish-33b752330/](https://www.linkedin.com/in/ahmed-darwish-33b752330/)
+🤝 Any advice or feedback is always welcome, learning never stops.
+❤️ Thanks for visiting.

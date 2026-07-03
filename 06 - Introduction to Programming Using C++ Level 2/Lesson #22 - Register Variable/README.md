@@ -1,7 +1,9 @@
-
----
+# 📘 Introduction
+In this lesson, we learned about:
 
 # 📘 تطبيق عملي — Lesson #22 (Register Variables)
+
+---
 
 ```markdown
 # 📘 Lesson #22 - Register Variables
@@ -12,12 +14,12 @@
 
 ---
 
-## 📌 Overview
+# 📌 Overview
 This lesson introduces **register variables** and how they relate to CPU-level optimization.
 
 ---
 
-## 🧠 Concept
+# 🧠 Concept
 Register variables:
 - Are stored in CPU registers (if applied)
 - Provide faster access than RAM
@@ -25,7 +27,7 @@ Register variables:
 
 ---
 
-## ⚙️ Example
+# ⚙️ Example
 
 ```cpp
 #include <iostream>
@@ -37,3 +39,14 @@ int main() {
         cout << i << endl;
     }
 }
+
+---
+
+# 👨‍💻 Author
+Ahmed Darwish 🚀 🚀 Software Engineering Student
+I share my journey in learning programming, my projects, and my study summaries.
+🌐 Portfolio [https://darwish.xo.je](https://darwish.xo.je)
+💻 GitHub [https://github.com/dariwsh](https://github.com/dariwsh)
+🔗 LinkedIn [https://www.linkedin.com/in/ahmed-darwish-33b752330/](https://www.linkedin.com/in/ahmed-darwish-33b752330/)
+🤝 Any advice or feedback is always welcome, learning never stops.
+❤️ Thanks for visiting.

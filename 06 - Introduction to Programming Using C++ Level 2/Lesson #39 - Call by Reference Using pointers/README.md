@@ -1,3 +1,6 @@
+# 📘 Introduction
+In this lesson, we learned about:
+
 # 📘 C++ Lesson 39 — Call by Reference Using Pointers
 
 <p align="center">
@@ -8,13 +11,13 @@
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 Ahmed Darwish
 
 ---
 
-## 📌 Overview
+# 📌 Overview
 
 This lesson explains how pointers can be used to:
 
@@ -24,14 +27,14 @@ This lesson explains how pointers can be used to:
 
 ---
 
-## 🧠 Core Concept
+# 🧠 Core Concept
 
 > Instead of sending values,
 > we send memory addresses.
 
 ---
 
-## 🔹 Example
+# 🔹 Example
 
 ```cpp id="8jlwm2"
 void swap(int *n1, int *n2)
@@ -46,7 +49,7 @@ void swap(int *n1, int *n2)
 
 ---
 
-## 🔥 Key Idea
+# 🔥 Key Idea
 
 ```text id="ujlwm5"
 *n1 modifies original variable
@@ -54,7 +57,7 @@ void swap(int *n1, int *n2)
 
 ---
 
-## 🧪 Function Call
+# 🧪 Function Call
 
 ```cpp id="kjlwm1"
 swap(&a, &b);
@@ -62,7 +65,7 @@ swap(&a, &b);
 
 ---
 
-## 🧠 Memory Model
+# 🧠 Memory Model
 
 | Variable | Meaning      |
 | -------- | ------------ |
@@ -71,7 +74,7 @@ swap(&a, &b);
 
 ---
 
-## ⚠️ Common Mistakes
+# 🔥 Pro Tips & Rules
 
 * Passing value instead of address
 * Forgetting dereference `*`
@@ -79,7 +82,7 @@ swap(&a, &b);
 
 ---
 
-## 🚀 Why Use It?
+# 🚀 Why Use It?
 
 * Direct memory access
 * Efficient data modification
@@ -87,7 +90,7 @@ swap(&a, &b);
 
 ---
 
-## 🧠 Professional Insight
+# 🧠 Professional Insight
 
 Pointers allow:
 
@@ -95,8 +98,19 @@ Pointers allow:
 
 ---
 
-## 📚 Next Step
+# 📚 Next Step
 
 * Pointer Arithmetic
 * Arrays & Pointers
 * Dynamic Memory
+
+---
+
+# 👨‍💻 Author
+Ahmed Darwish 🚀 🚀 Software Engineering Student
+I share my journey in learning programming, my projects, and my study summaries.
+🌐 Portfolio [https://darwish.xo.je](https://darwish.xo.je)
+💻 GitHub [https://github.com/dariwsh](https://github.com/dariwsh)
+🔗 LinkedIn [https://www.linkedin.com/in/ahmed-darwish-33b752330/](https://www.linkedin.com/in/ahmed-darwish-33b752330/)
+🤝 Any advice or feedback is always welcome, learning never stops.
+❤️ Thanks for visiting.

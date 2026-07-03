@@ -1,3 +1,6 @@
+# 📘 Introduction
+In this lesson, we learned about:
+
 # 📘 C++ Lesson — Pointers (Basics)
 
 <p align="center">
@@ -8,13 +11,13 @@
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 Ahmed Darwish
 
 ---
 
-## 📌 Overview
+# 📌 Overview
 
 This lesson introduces **Pointers**, one of the most powerful features in C++.
 
@@ -22,7 +25,7 @@ This lesson introduces **Pointers**, one of the most powerful features in C++.
 
 ---
 
-## 🧠 What is a Pointer?
+# 🧠 Concepts Covered
 
 A pointer is:
 
@@ -30,7 +33,7 @@ A pointer is:
 
 ---
 
-## 🔹 Syntax
+# 🔹 Syntax
 
 ```cpp
 int a = 10;
@@ -39,7 +42,7 @@ int *p = &a;
 
 ---
 
-## 🔹 Key Concepts
+# 🔹 Key Concepts
 
 | Concept | Description      |
 | ------- | ---------------- |
@@ -50,7 +53,7 @@ int *p = &a;
 
 ---
 
-## 🔹 Dereferencing
+# 🔹 Dereferencing
 
 ```cpp
 *p
@@ -60,7 +63,7 @@ int *p = &a;
 
 ---
 
-## 🧪 Example
+# 💡 Practical Details
 
 ```cpp
 int a = 10;
@@ -73,7 +76,7 @@ cout << a;
 
 ---
 
-## 🎯 Output
+# 🎯 Output
 
 ```
 20
@@ -81,13 +84,13 @@ cout << a;
 
 ---
 
-## 🔥 Key Idea
+# 🔥 Key Idea
 
 > Changing `*p` changes the original variable
 
 ---
 
-## ⚠️ Common Mistakes
+# 🔥 Pro Tips & Rules
 
 * Using uninitialized pointer
 * Dereferencing null pointer
@@ -96,7 +99,7 @@ cout << a;
 
 ---
 
-## 🧠 Why Use Pointers?
+# 🧠 Why Use Pointers?
 
 * Direct memory access
 * Performance optimization
@@ -105,8 +108,19 @@ cout << a;
 
 ---
 
-## 🚀 Next Step
+# 🚀 Next Step
 
 * Pointer vs Reference
 * Pointer Arithmetic
 * Arrays with pointers
+
+---
+
+# 👨‍💻 Author
+Ahmed Darwish 🚀 🚀 Software Engineering Student
+I share my journey in learning programming, my projects, and my study summaries.
+🌐 Portfolio [https://darwish.xo.je](https://darwish.xo.je)
+💻 GitHub [https://github.com/dariwsh](https://github.com/dariwsh)
+🔗 LinkedIn [https://www.linkedin.com/in/ahmed-darwish-33b752330/](https://www.linkedin.com/in/ahmed-darwish-33b752330/)
+🤝 Any advice or feedback is always welcome, learning never stops.
+❤️ Thanks for visiting.

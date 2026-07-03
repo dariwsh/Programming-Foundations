@@ -1,8 +1,11 @@
+# 📘 Introduction
+In this lesson, we learned about:
+
 # 📘 C++ Lesson 30.1 — Vector Input (Struct)
 
 ---
 
-## 📌 Overview
+# 📌 Overview
 
 This lesson builds an interactive system to:
 
@@ -12,7 +15,7 @@ This lesson builds an interactive system to:
 
 ---
 
-## 🔹 Read Function
+# 🔹 Read Function
 
 ```cpp
 void ReadVector(vector<stEmployee>& Vemployee)
@@ -26,7 +29,7 @@ void ReadVector(vector<stEmployee>& Vemployee)
 
 ---
 
-## 🔹 Print Function
+# 🔹 Print Function
 
 ```cpp
 void PrintVector(vector<stEmployee>& Vemployee)
@@ -36,7 +39,7 @@ void PrintVector(vector<stEmployee>& Vemployee)
 
 ---
 
-## 🧠 Concept
+# 🧠 Concept
 
 ```text
 User → Input → Store → Display
@@ -44,13 +47,24 @@ User → Input → Store → Display
 
 ---
 
-## 💣 Important
+# 💣 Important
 
 * Use `&` to avoid copying vector
 * Validate input in real apps
 
 ---
 
-## 🎯 Goal
+# 🎯 Goal
 
 Build dynamic systems using vector + struct
+
+---
+
+# 👨‍💻 Author
+Ahmed Darwish 🚀 🚀 Software Engineering Student
+I share my journey in learning programming, my projects, and my study summaries.
+🌐 Portfolio [https://darwish.xo.je](https://darwish.xo.je)
+💻 GitHub [https://github.com/dariwsh](https://github.com/dariwsh)
+🔗 LinkedIn [https://www.linkedin.com/in/ahmed-darwish-33b752330/](https://www.linkedin.com/in/ahmed-darwish-33b752330/)
+🤝 Any advice or feedback is always welcome, learning never stops.
+❤️ Thanks for visiting.

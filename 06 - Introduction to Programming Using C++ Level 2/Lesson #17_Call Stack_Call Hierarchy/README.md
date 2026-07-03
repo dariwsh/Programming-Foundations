@@ -1,8 +1,10 @@
+# 📘 Introduction
+In this lesson, we learned about:
+
 # 📘 C++ Lesson Repository
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 Ahmed Darwish
-
 
 ![Language](https://img.shields.io/badge/language-C%2B%2B-blue.svg)
 ![Status](https://img.shields.io/badge/status-active-success.svg)
@@ -11,7 +13,7 @@ Ahmed Darwish
 
 ---
 
-## 📌 Overview
+# 📌 Overview
 
 This repository contains structured **C++ lessons** designed to build strong programming fundamentals through clear explanations, examples, and practice exercises.
 
@@ -19,7 +21,7 @@ Each lesson focuses on one core concept and helps you progress step-by-step from
 
 ---
 
-## 🎯 Learning Goals
+# 🎯 Learning Goals
 
 By using this repository, you will be able to:
 
@@ -31,7 +33,7 @@ By using this repository, you will be able to:
 
 ---
 
-## 📂 Repository Structure
+# 📂 Repository Structure
 
 ```
 C++-Lessons/
@@ -45,7 +47,7 @@ C++-Lessons/
 
 ---
 
-## 🧠 Key Topics Covered
+# 🧠 Key Topics Covered
 
 * Variables & Data Types
 * Operators (Arithmetic, Logical, Bitwise)
@@ -58,7 +60,7 @@ C++-Lessons/
 
 ---
 
-## 💻 Example Code
+# 💻 Example Code
 
 ```cpp
 #include <iostream>
@@ -79,7 +81,7 @@ int main() {
 
 # 📘 Lesson #17 - Call Stack / Call Hierarchy
 
-## 📌 Concept
+# 📌 Concept
 
 The **Call Stack** is a data structure used by C++ to manage function calls.
 Each time a function is called, it is placed (pushed) onto the stack.
@@ -87,7 +89,7 @@ When it finishes, it is removed (popped).
 
 ---
 
-## 🧠 How It Works
+# 🧠 How It Works
 
 Example execution:
 
@@ -108,7 +110,7 @@ Pop : main
 
 ---
 
-## 💻 Example Code
+# 💻 Example Code
 
 ```cpp
 #include <iostream>
@@ -136,7 +138,7 @@ int main() {
 
 ---
 
-## 🧪 Execution Flow
+# 🧪 Execution Flow
 
 ```
 main → FunctionA → FunctionB → FunctionC
@@ -150,7 +152,7 @@ FunctionC → FunctionB → FunctionA → main
 
 ---
 
-## ⚠️ Common Mistakes
+# 🔥 Pro Tips & Rules
 
 * Infinite recursion (stack overflow)
 * Not understanding return flow
@@ -158,26 +160,26 @@ FunctionC → FunctionB → FunctionA → main
 
 ---
 
-## 🚀 Summary
+# 🚀 Summary
 
 Call Stack controls how functions execute and return.
 Understanding it is critical for recursion, debugging, and tracing programs.
 
 ---
 
-## 📈 Progress Tip
+# 📈 Progress Tip
 
 > Always trace function calls manually before running code.
 
 ---
 
-## 📄 License
+# 📄 License
 
 MIT License
 
 ---
 
-## ⭐ Contributing
+# ⭐ Contributing
 
 * Add new examples
 * Improve explanations
@@ -186,3 +188,14 @@ MIT License
 ---
 
 🔥 Happy Coding!
+
+---
+
+# 👨‍💻 Author
+Ahmed Darwish 🚀 🚀 Software Engineering Student
+I share my journey in learning programming, my projects, and my study summaries.
+🌐 Portfolio [https://darwish.xo.je](https://darwish.xo.je)
+💻 GitHub [https://github.com/dariwsh](https://github.com/dariwsh)
+🔗 LinkedIn [https://www.linkedin.com/in/ahmed-darwish-33b752330/](https://www.linkedin.com/in/ahmed-darwish-33b752330/)
+🤝 Any advice or feedback is always welcome, learning never stops.
+❤️ Thanks for visiting.

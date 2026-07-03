@@ -1,10 +1,13 @@
+# 📘 Introduction
+In this lesson, we learned about:
+
 # 🚀 C++ Debugging - Quick Watch Window
 
 > Check any variable or expression instantly ⚡
 
 ---
 
-## 🎯 Why this matters?
+# 🎯 Why this matters?
 
 Sometimes you want to check a variable **quickly** without adding it to Watch.
 
@@ -16,7 +19,7 @@ Sometimes you want to check a variable **quickly** without adding it to Watch.
 
 ---
 
-## 🧠 What is Quick Watch?
+# 🧠 Concepts Covered
 
 **Quick Watch** is a tool in Visual Studio that shows the value of a variable or expression during debugging.
 
@@ -26,7 +29,7 @@ Sometimes you want to check a variable **quickly** without adding it to Watch.
 
 ---
 
-## ⚡ Key Features
+# ⚡ Key Features
 
 * Show value of a variable
 * Evaluate expressions (like `a + b`)
@@ -37,14 +40,14 @@ Sometimes you want to check a variable **quickly** without adding it to Watch.
 
 ---
 
-## 🔍 Important Note
+# 🔍 Important Note
 
 * Quick Watch shows **one variable at a time**
 * You must close it to continue debugging ([video2.skills-academy.com][1])
 
 ---
 
-## 🧪 Example
+# 💡 Practical Details
 
 ```cpp
 #include <iostream>
@@ -71,7 +74,7 @@ int main()
 
 ---
 
-## 🛠 How to open Quick Watch
+# 🛠 How to open Quick Watch
 
 While debugging:
 
@@ -81,7 +84,7 @@ OR
 
 ---
 
-## 🔥 Pro Tips
+# 🔥 Pro Tips & Rules
 
 * Use it for **quick testing**
 * Use Watch window for long tracking
@@ -93,7 +96,7 @@ a + b
 
 ---
 
-## ⚠️ Difference from Watch
+# ⚠️ Difference from Watch
 
 | Quick Watch  | Watch          |
 | ------------ | -------------- |
@@ -103,7 +106,7 @@ a + b
 
 ---
 
-## 🧩 Practice
+# 🧩 Practice
 
 Try this:
 
@@ -116,7 +119,7 @@ Try this:
 
 ---
 
-## 💡 Real Talk
+# 💡 Real Talk
 
 Beginners:
 ❌ Print values
@@ -127,7 +130,7 @@ Smart developers:
 
 ---
 
-## 🏁 Summary
+# 🏁 Summary
 
 * Quick Watch = fast check tool
 * Works in debug mode
@@ -136,9 +139,20 @@ Smart developers:
 
 ---
 
-## ⭐ If this helped you
+# ⭐ If this helped you
 
 Give the repo a ⭐ and follow for more C++ content 🚀
 
 ---
 Ahemd Darwish
+
+---
+
+# 👨‍💻 Author
+Ahmed Darwish 🚀 🚀 Software Engineering Student
+I share my journey in learning programming, my projects, and my study summaries.
+🌐 Portfolio [https://darwish.xo.je](https://darwish.xo.je)
+💻 GitHub [https://github.com/dariwsh](https://github.com/dariwsh)
+🔗 LinkedIn [https://www.linkedin.com/in/ahmed-darwish-33b752330/](https://www.linkedin.com/in/ahmed-darwish-33b752330/)
+🤝 Any advice or feedback is always welcome, learning never stops.
+❤️ Thanks for visiting.

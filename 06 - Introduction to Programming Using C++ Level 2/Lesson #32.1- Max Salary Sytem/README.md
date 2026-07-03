@@ -1,3 +1,6 @@
+# 📘 Introduction
+In this lesson, we learned about:
+
 # 📘 C++ Project — Max Salary System
 
 <p align="center">
@@ -7,13 +10,13 @@
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 Ahmed Darwish
 
 ---
 
-## 📌 Description
+# 🎯 Main Idea
 
 A C++ program that:
 
@@ -23,7 +26,7 @@ A C++ program that:
 
 ---
 
-## 🧠 Concepts Used
+# 🧠 Concepts Used
 
 * `vector<struct>`
 * `push_back()`
@@ -32,7 +35,7 @@ A C++ program that:
 
 ---
 
-## 🔹 Data Structure
+# 🔹 Data Structure
 
 ```cpp
 struct stEmployee {
@@ -44,7 +47,7 @@ struct stEmployee {
 
 ---
 
-## 🔹 Features
+# ✨ Key Features & Tools
 
 * Add employees
 * Store data dynamically
@@ -53,7 +56,7 @@ struct stEmployee {
 
 ---
 
-## 🎯 Output Example
+# 🎯 Output Example
 
 ```
 Top Salary:
@@ -63,9 +66,20 @@ Amr Khaled
 
 ---
 
-## 🚀 Goal
+# 🚀 Goal
 
 Practice working with:
 
 * Objects inside vectors
 * Real-world data handling
+
+---
+
+# 👨‍💻 Author
+Ahmed Darwish 🚀 🚀 Software Engineering Student
+I share my journey in learning programming, my projects, and my study summaries.
+🌐 Portfolio [https://darwish.xo.je](https://darwish.xo.je)
+💻 GitHub [https://github.com/dariwsh](https://github.com/dariwsh)
+🔗 LinkedIn [https://www.linkedin.com/in/ahmed-darwish-33b752330/](https://www.linkedin.com/in/ahmed-darwish-33b752330/)
+🤝 Any advice or feedback is always welcome, learning never stops.
+❤️ Thanks for visiting.
