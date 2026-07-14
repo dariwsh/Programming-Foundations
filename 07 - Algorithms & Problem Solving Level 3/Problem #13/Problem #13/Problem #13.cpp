@@ -1,3 +1,16 @@
+// =============================================
+// Problem #13: Check if Matrix is Identity
+// =============================================
+// Description:
+//   Check if a given 3x3 matrix is an Identity
+//   Matrix (1s on diagonal, 0s elsewhere).
+//
+// Key Concepts:
+//   - 2D Arrays (Matrices)
+//   - Identity Matrix Properties
+//   - Diagonal Check (i == j)
+// =============================================
+
 #include <iostream>
 #include <string>
 #include <iomanip>

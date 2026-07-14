@@ -1,15 +1,15 @@
 // =============================================
-// Problem #12: Check if Two Matrices Are Typical
+// Problem #18: Intersected Numbers Between Matrices
 // =============================================
 // Description:
-//   Generate two 3x3 random matrices and check
-//   if they are identical by comparing each
-//   element one by one.
+//   Generate two 3x3 random matrices and find
+//   the common (intersected) numbers that exist
+//   in both matrices.
 //
 // Key Concepts:
 //   - 2D Arrays (Matrices)
-//   - Element-wise Comparison
-//   - Early Return Pattern
+//   - Matrix Intersection
+//   - Search Within Matrix
 // =============================================
 
 #include <iostream>
@@ -46,36 +46,58 @@ void PrintMatrix(int arr[3][3], short Rows, short Cols)
 	}
 }
 
-bool AreTypicalMatrices(int Matrix1[3][3], int Matrix2[3][3],
-	short Rows, short Cols)
+
+
+bool IsNumberInMatrix(int Matrix1[3][3],
+	int Number, short Rows, short Cols)
 {
 	for (short i = 0; i < Rows; i++)
 	{
 		for (short j = 0; j < Cols; j++)
 		{
-			if (Matrix1[i][j] != Matrix2[i][j])
+			if (Matrix1[i][j] == Number)
 			{
-				return false;
+				return true;
+			}
+
+		}
+	}
+	return false;
+}
+
+
+
+
+void PrintItersectedNumbers(int Matrix1[3][3], int Matrix2[3][3],
+	short Rows, short Cols)
+{
+	int Number;
+	cout << "\nIntersected Number are : \n ";
+	for (short i = 0; i < Rows; i++)
+	{
+		for (short j = 0; j < Cols; j++)
+		{
+			Number = Matrix1[i][j];
+			if (IsNumberInMatrix(Matrix2 , Number , Rows, Cols))
+			{
+				cout << setw(3) << Number   << " ";
 			}
 		}
 	}
-	return true;
 }
 int main()
 {
 	//Seeds the random number generator in C++, called only once
 	srand((unsigned)time(NULL));
-	int Matrix1[3][3], Matrix2[3][3];
+	int Matrix1[3][3], Matrix2[3][3] ;
 	FillMatrixWithRandomNumbers(Matrix1, 3, 3);
 	cout << "\nMatrix1:\n";
 	PrintMatrix(Matrix1, 3, 3);
 	FillMatrixWithRandomNumbers(Matrix2, 3, 3);
 	cout << "\nMatrix2:\n";
 	PrintMatrix(Matrix2, 3, 3);
-	if (AreTypicalMatrices(Matrix1, Matrix2, 3, 3))
-		cout << "\nYES: both martices are typical.";
-	else
-		cout << "\nNo: martices are NOT typical.";
+	
+	PrintItersectedNumbers(Matrix1, Matrix2, 3, 3);
 	system("pause>0");
 
 }

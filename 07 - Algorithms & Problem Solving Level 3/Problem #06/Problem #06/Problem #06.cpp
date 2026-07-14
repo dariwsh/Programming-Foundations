@@ -1,3 +1,16 @@
+// =============================================
+// Problem #06: Fill Matrix With Ordered Numbers
+// =============================================
+// Description:
+//   Fill a 3x3 matrix with ordered numbers
+//   from 1 to 9 and print it.
+//
+// Key Concepts:
+//   - 2D Arrays (Matrices)
+//   - Sequential Filling
+//   - Counter Variable
+// =============================================
+
 #include <iostream>
 #include <string>
 #include <iomanip>

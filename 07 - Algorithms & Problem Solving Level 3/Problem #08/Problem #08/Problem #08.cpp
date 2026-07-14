@@ -1,3 +1,16 @@
+// =============================================
+// Problem #08: Multiply Two Matrices
+// =============================================
+// Description:
+//   Generate two 3x3 random matrices, multiply
+//   them element by element, and print the result.
+//
+// Key Concepts:
+//   - 2D Arrays (Matrices)
+//   - Element-wise Multiplication
+//   - Multiple Matrix Operations
+// =============================================
+
 #include <iostream>
 #include <string>
 #include <iomanip>

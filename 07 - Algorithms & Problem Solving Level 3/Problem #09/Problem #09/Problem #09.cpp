@@ -1,3 +1,16 @@
+// =============================================
+// Problem #09: Print Middle Row & Middle Column
+// =============================================
+// Description:
+//   Generate a 3x3 random matrix, then print
+//   the middle row and the middle column.
+//
+// Key Concepts:
+//   - 2D Arrays (Matrices)
+//   - Middle Index Calculation (size / 2)
+//   - Row & Column Extraction
+// =============================================
+
 #include <iostream>
 #include <string>
 #include <iomanip>

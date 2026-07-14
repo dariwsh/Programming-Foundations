@@ -1,3 +1,16 @@
+// =============================================
+// Problem #04: Sum of Each Column in a Matrix
+// =============================================
+// Description:
+//   Generate a 3x3 random matrix and calculate
+//   the sum of each column, then print the results.
+//
+// Key Concepts:
+//   - 2D Arrays (Matrices)
+//   - Column-wise Traversal
+//   - Accumulator Pattern
+// =============================================
+
 #include <iostream>
 #include <string>
 #include <iomanip>

@@ -1,3 +1,18 @@
+// =============================================
+// Problem #05: Store Column Sums in a Separate Array
+// =============================================
+// Description:
+//   Generate a 3x3 random matrix, calculate the
+//   sum of each column, store results in a separate
+//   array, and print them.
+//
+// Key Concepts:
+//   - 2D Arrays (Matrices)
+//   - 1D Arrays for Storage
+//   - Column Sum Calculation
+//   - Function Decomposition
+// =============================================
+
 #include <iostream>
 #include <string>
 #include <iomanip>

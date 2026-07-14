@@ -1,3 +1,17 @@
+// =============================================
+// Problem #07: Transpose a Matrix
+// =============================================
+// Description:
+//   Fill a 3x3 matrix with ordered numbers,
+//   then transpose it (swap rows and columns)
+//   and print both matrices.
+//
+// Key Concepts:
+//   - 2D Arrays (Matrices)
+//   - Matrix Transposition
+//   - Index Swapping (arr[i][j] → arr[j][i])
+// =============================================
+
 #include <iostream>
 #include <string>
 #include <iomanip>

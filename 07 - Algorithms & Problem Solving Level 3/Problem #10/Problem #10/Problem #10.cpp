@@ -1,3 +1,16 @@
+// =============================================
+// Problem #10: Sum of All Elements in a Matrix
+// =============================================
+// Description:
+//   Generate a 3x3 random matrix and calculate
+//   the total sum of all its elements.
+//
+// Key Concepts:
+//   - 2D Arrays (Matrices)
+//   - Full Matrix Traversal
+//   - Accumulator Pattern
+// =============================================
+
 #include <iostream>
 #include <string>
 #include <iomanip>

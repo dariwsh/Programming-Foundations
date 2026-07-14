@@ -1,14 +1,14 @@
 // =============================================
-// Problem #15: Count Number in Matrix
+// Problem #17: Search for a Number in a Matrix
 // =============================================
 // Description:
-//   Count how many times a specific number
-//   appears in a 3x3 matrix.
+//   Search for a user-entered number in a 3x3
+//   matrix and report whether it exists or not.
 //
 // Key Concepts:
 //   - 2D Arrays (Matrices)
-//   - Counting Pattern
-//   - User Input (cin)
+//   - Linear Search in Matrix
+//   - Boolean Functions & User Input
 // =============================================
 
 #include <iostream>
@@ -29,22 +29,29 @@ void PrintMatrix(int arr[3][3], short Rows, short Cols)
 }
 
 
-short CountNumberInMatrix(int Matrix1[3][3],
-	int Number , short Rows, short Cols)
+bool IsNumberInMatrix(int Matrix1[3][3],
+	int Number, short Rows, short Cols)
 {
-	short NumberCount = 0;
 	for (short i = 0; i < Rows; i++)
 	{
 		for (short j = 0; j < Cols; j++)
 		{
 			if (Matrix1[i][j] == Number)
 			{
-				 NumberCount++;
-			};
-			
+				return true;
+			}
+
 		}
 	}
-	return NumberCount;
+	return false;
+}
+void PrintSearchResult(int Matrix1[3][3],
+	int Number, short Rows, short Cols)
+{
+	if (IsNumberInMatrix(Matrix1, Number, 3, 3))
+		cout << "\nYes: It is there.\n";
+	else
+		cout << "\nNo: It is NOT there.\n";
 }
 int main()
 {
@@ -53,10 +60,10 @@ int main()
 	cout << "\nMatrix1:\n";
 	PrintMatrix(Matrix1, 3, 3);
 	int Number;
-	cout << "\nEnter the number to count in matrix? ";
+	cout << "\nEnter the number to search for: ";
 	cin >> Number;
 
-	cout << "\nNumber " << Number << " count in matrix is "
-		<< CountNumberInMatrix(Matrix1, Number, 3, 3);
+	cout << "\nSearching for " << Number << "...\n";
+	PrintSearchResult(Matrix1, Number, 3, 3);
 	system("pause>0");
 }

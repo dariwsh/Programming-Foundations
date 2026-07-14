@@ -1,3 +1,18 @@
+// =============================================
+// Problem #03: Store Row Sums in a Separate Array
+// =============================================
+// Description:
+//   Generate a 3x3 random matrix, calculate the
+//   sum of each row, store results in a separate
+//   array, and print them.
+//
+// Key Concepts:
+//   - 2D Arrays (Matrices)
+//   - 1D Arrays for Storage
+//   - Row Sum Calculation
+//   - Function Decomposition
+// =============================================
+
 #include <iostream>
 #include <string>
 #include <iomanip>

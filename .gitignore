@@ -1,1 +1,52 @@
+# ========================
+# Visual Studio Files
+# ========================
 .vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ========================
+# Build Results
+# ========================
+x64/
+Debug/
+Release/
+[Bb]uild/
+[Oo]ut/
+
+# ========================
+# Project Files (auto-generated)
+# ========================
+*.vcxproj.filters
+*.vcxproj.user
+*.slnx
+
+# ========================
+# Compiled Binaries
+# ========================
+*.obj
+*.o
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.log
+*.tlog
+*.idb
+*.pch
+*.ipch
+
+# ========================
+# Other
+# ========================
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+ipch/
+Thumbs.db
+.DS_Store

@@ -1,3 +1,16 @@
+// =============================================
+// Problem #01: Fill Matrix With Random Numbers
+// =============================================
+// Description:
+//   Generate a 3x3 matrix filled with random
+//   numbers (1-100) and print it.
+//
+// Key Concepts:
+//   - 2D Arrays (Matrices)
+//   - Random Number Generation (rand, srand)
+//   - Nested Loops
+// =============================================
+
 #include<iostream>
 #include<string>
 using namespace std;

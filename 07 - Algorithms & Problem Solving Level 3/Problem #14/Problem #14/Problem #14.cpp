@@ -1,3 +1,16 @@
+// =============================================
+// Problem #14: Check if Matrix is Scalar
+// =============================================
+// Description:
+//   Check if a given 3x3 matrix is a Scalar
+//   Matrix (same value on diagonal, 0s elsewhere).
+//
+// Key Concepts:
+//   - 2D Arrays (Matrices)
+//   - Scalar Matrix Properties
+//   - Diagonal vs Off-diagonal Check
+// =============================================
+
 #include <iostream>
 #include <string>
 #include <iomanip>

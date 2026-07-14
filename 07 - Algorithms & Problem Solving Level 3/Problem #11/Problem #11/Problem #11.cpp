@@ -1,3 +1,17 @@
+// =============================================
+// Problem #11: Check if Two Matrices Are Equal
+// =============================================
+// Description:
+//   Generate two 3x3 random matrices and check
+//   if they are equal by comparing the sum of
+//   all elements in each matrix.
+//
+// Key Concepts:
+//   - 2D Arrays (Matrices)
+//   - Sum Comparison
+//   - Boolean Functions
+// =============================================
+
 #include <iostream>
 #include <string>
 #include <iomanip>
