@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
   <img src="https://img.shields.io/badge/Topic-Matrices-blueviolet?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Problems-20%20Solved-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Problems-30%20Solved-success?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge" />
 </p>
 
@@ -37,7 +37,17 @@
 | 17 | [Search for Number](Problem%20%2317/Problem%20%2317/Problem%20%2317.cpp) | Search for a number in a matrix | Linear Search, Boolean |
 | 18 | [Intersected Numbers](Problem%20%2318/Problem%20%2318/Problem%20%2318.cpp) | Find common numbers between two matrices | Matrix Intersection, Nested Search |
 | 19 | [Min & Max Element](Problem%20%2319/Problem%20%2319/Problem%20%2319.cpp) | Find the minimum and maximum values in a matrix | Min/Max Algorithm |
-| 20 | [Palindrome Matrix](Problem%20%2320/Problem%20%2320/Problem%20%2320.cpp) | Check if each row reads the same forwards & backwards | Palindrome, Two-pointer |
+| 20 | [Palindrome Matrix](Problem%20%2320/Problem%20%2320/Problem%20%2320.cpp) |
+| 21 | [Print Fibonacci Using Loop](Problem%20%2321/Problem%20%2321/Problem%20%2321.cpp) | Write a program to print Fibonacci series of a given number of terms using a loop. | Fibonacci Series, Loops & Iteration |
+| 22 | [Print Fibonacci Using Recursion](Problem%20%2322/Problem%20%2322/Problem%20%2322.cpp) | Write a program to print Fibonacci series of a given number of terms using recursion. | Recursion, Fibonacci Sequence |
+| 23 | [Lower First Letter of Each Word](Problem%20%2323/Problem%20%2323/Problem%20%2323.cpp) | Write a program to lower the first letter of each word in a given string. | String Traversal, Character Manipulation |
+| 24 | [Upper First Letter of Each Word](Problem%20%2324/Problem%20%2324/Problem%20%2324.cpp) | Write a program to upper the first letter of each word in a given string. | String Traversal, Character Manipulation |
+| 25 | [Lower First Letter of Each Word (Function)](Problem%20%2325/Problem%20%2325/Problem%20%2325.cpp) | Write a program to lower the first letter of each word in a given string. | String Traversal, Character Manipulation |
+| 26 | [Upper/Lower All Letters of String](Problem%20%2326/Problem%20%2326/Problem%20%2326.cpp) | Write a program to convert all letters of a string to upper case, and convert all letters to lower case. | String Traversal, Case Conversion |
+| 27 | [Invert Character Case](Problem%20%2327/Problem%20%2327/Problem%20%2327.cpp) | Write a program to read a character and invert its case (upper to lower, lower to upper). | Character Manipulation, Case Inversion |
+| 28 | [Invert All String Letters Case](Problem%20%2328/Problem%20%2328/Problem%20%2328.cpp) | Write a program to read a string and invert the case of all its letters. | String Traversal, Case Inversion |
+| 29 | [Count Capital/Small/All Letters](Problem%20%2329/Problem%20%2329/Problem%20%2329.cpp) | Count capital letters, small letters, and total characters in a string using two methods (functions & enums). | String Analysis, Enums |
+| 30 | [Count Specific Letter in String](Problem%20%2330/Problem%20%2330/Problem%20%2330.cpp) | Count how many times a specific character appears in a given string. | String Traversal, Character Comparison | Check if each row reads the same forwards & backwards | Palindrome, Two-pointer |
 
 ---
 
@@ -1340,6 +1350,597 @@ int main()
 
 ---
 
+
+<details>
+<summary><b>Problem #21 — Print Fibonacci Using Loop</b></summary>
+
+> **Task:** Write a program to print Fibonacci series of a given number of terms using a loop.
+
+```cpp
+// Description:
+//   Write a program to print Fibonacci series
+//   of a given number of terms using a loop.
+//
+// Key Concepts:
+//   - Fibonacci Series
+//   - Loops & Iteration
+// =============================================
+
+#include <iostream>
+#include <string>
+#include <iomanip>
+using namespace std;
+
+void PrintFibonacciUsingLoop(int Number)
+{
+	int FebNumber =0 ;
+	int Prev2 = 0 , Prev1 = 1;
+	cout << "1 ";
+	for (int i = 2; i < Number; i++)
+	{
+		FebNumber = Prev1 + Prev2;
+		cout << FebNumber << "  ";
+		Prev2 = Prev1;
+		Prev1 = FebNumber;
+	}
+}
+
+
+
+int main()
+{
+	int Number;
+	cout << "Enter Number Fibonacci Series : \n";
+	cin >> Number;
+	PrintFibonacciUsingLoop(Number);
+
+	system("pause>0");
+
+}
+```
+</details>
+
+<details>
+<summary><b>Problem #22 — Print Fibonacci Using Recursion</b></summary>
+
+> **Task:** Write a program to print Fibonacci series of a given number of terms using recursion.
+
+```cpp
+// Description:
+//   Write a program to print Fibonacci series
+//   of a given number of terms using recursion.
+//
+// Key Concepts:
+//   - Recursion
+//   - Fibonacci Sequence
+// =============================================
+
+#include <iostream>
+#include <string>
+#include <iomanip>
+using namespace std;
+
+void PrintFibonacciUsingRecurssion(short Number , int Prev1, int Prev2 )
+{
+	int FebNumber = 0;
+	
+	if (Number > 0)
+	{
+		FebNumber = Prev1 + Prev2;
+
+		Prev2 = Prev1;
+		Prev1 = FebNumber;
+		cout << FebNumber << "  ";
+		PrintFibonacciUsingRecurssion(Number - 1, Prev1, Prev2);
+	}
+	
+		
+}
+
+
+
+int main()
+{
+	int Number;
+	cout << "Enter Number Fibonacci Series : \n";
+	cin >> Number;
+	PrintFibonacciUsingRecurssion(Number , 0 , 1);
+
+	system("pause>0");
+
+}
+```
+</details>
+
+<details>
+<summary><b>Problem #23 — Lower First Letter of Each Word</b></summary>
+
+> **Task:** Write a program to lower the first letter of each word in a given string.
+
+```cpp
+// Description:
+//   Write a program to lower the first letter
+//   of each word in a given string.
+//
+// Key Concepts:
+//   - String Traversal
+//   - Character Manipulation
+//   - tolower() Function
+// =============================================
+
+#include <iostream>
+#include <string>
+#include <iomanip>
+#include <cctype>
+using namespace std;
+
+string ReadString()
+{
+    string S1;
+    cout << "Enter Your Name :\n";
+    getline(cin, S1);
+    return S1;
+}
+
+void LowerFirstLetterOfEachWord(string S1)
+{
+    cout << "\nString after conversion:\n";
+    bool isFirstLetter = true;
+    for (int i = 0; i < S1.length(); i++)
+    {
+        if (S1[i] != ' ' && isFirstLetter)
+        {
+            S1[i] = tolower(S1[i]);
+            
+        }
+        isFirstLetter = (S1[i] == ' ' ? true : false);
+    }
+
+    cout << S1 << endl;
+}
+
+
+int main()
+{
+    LowerFirstLetterOfEachWord(ReadString());
+    system("pause>0");
+
+}
+```
+</details>
+
+<details>
+<summary><b>Problem #24 — Upper First Letter of Each Word</b></summary>
+
+> **Task:** Write a program to upper the first letter of each word in a given string.
+
+```cpp
+// Description:
+//   Write a program to upper the first letter
+//   of each word in a given string.
+//
+// Key Concepts:
+//   - String Traversal
+//   - Character Manipulation
+//   - toupper() Function
+// =============================================
+
+#include <string>
+#include <iostream>
+using namespace std;
+string ReadString()
+{
+	string S1;
+	cout << "Please Enter Your String?\n";
+	getline(cin, S1);
+	return S1;
+}
+string UpperFirstLetterOfEachWord(string S1)
+{
+	bool isFirstLetter = true;
+	for (short i = 0; i < S1.length(); i++)
+	{
+		if (S1[i] != ' ' && isFirstLetter)
+		{
+			S1[i] = toupper(S1[i]);
+		}
+		isFirstLetter = (S1[i] == ' ' ? true : false);
+	}
+	return S1;
+}
+int main()
+{
+	string S1 = ReadString();
+	cout << "\nString after conversion:\n";
+	S1 = UpperFirstLetterOfEachWord(S1);
+	cout << S1 << endl;
+	system("pause>0");
+}
+```
+</details>
+
+<details>
+<summary><b>Problem #25 — Lower First Letter of Each Word (Function)</b></summary>
+
+> **Task:** Write a program to lower the first letter of each word in a given string.
+
+```cpp
+// Description:
+//   Write a program to lower the first letter
+//   of each word in a given string.
+//
+// Key Concepts:
+//   - String Traversal
+//   - Character Manipulation
+//   - tolower() Function
+// =============================================
+
+#include <string>
+#include <iostream>
+using namespace std;
+string ReadString()
+{
+	string S1;
+	cout << "Please Enter Your String?\n";
+	getline(cin, S1);
+	return S1;
+}
+string LowerFirstLetterOfEachWord(string S1)
+{
+	bool isFirstLetter = true;
+	for (short i = 0; i < S1.length(); i++)
+	{
+		if (S1[i] != ' ' && isFirstLetter)
+		{
+			S1[i] = tolower(S1[i]);
+		}
+		isFirstLetter = (S1[i] == ' ' ? true : false);
+	}
+	return S1;
+}
+int main()
+{
+	string S1 = ReadString();
+	cout << "\nString after conversion:\n";
+	S1 = LowerFirstLetterOfEachWord(S1);
+	cout << S1 << endl;
+	system("pause>0");
+}
+```
+</details>
+
+<details>
+<summary><b>Problem #26 — Upper/Lower All Letters of String</b></summary>
+
+> **Task:** Write a program to convert all letters of a string to upper case, and convert all letters to lower case.
+
+```cpp
+// Description:
+//   Write a program to convert all letters of a
+//   string to upper case, and convert all letters
+//   to lower case.
+//
+// Key Concepts:
+//   - String Traversal
+//   - toupper() & tolower() Functions
+// =============================================
+
+#include <string>
+#include <iostream>
+using namespace std;
+
+string ReadString()
+{
+	string S1;
+	cout << "Please Enter Your String?\n";
+	getline(cin, S1);
+	return S1;
+}
+
+string LowerAllString(string S1)
+{
+	for (short i = 0; i < S1.length(); i++)
+	{	
+		S1[i] = toupper(S1[i]);
+	}
+	return S1;
+}
+
+string UpperAllString(string S1)
+{
+	bool isFirstLetter = true;
+	for (short i = 0; i < S1.length(); i++)
+	{
+		
+		S1[i] = tolower(S1[i]);
+	}
+	return S1;
+}
+
+int main()
+{
+	string S1 = ReadString();
+	cout << "\nString after Lower:\n";
+	S1 = LowerAllString(S1);
+	cout << S1 << endl;
+
+	cout << "\nString after Upper:\n";
+	S1 = UpperAllString(S1);
+	cout << S1 << endl;
+	system("pause>0");
+}
+```
+</details>
+
+<details>
+<summary><b>Problem #27 — Invert Character Case</b></summary>
+
+> **Task:** Write a program to read a character and invert its case (upper to lower, lower to upper).
+
+```cpp
+// Description:
+//   Write a program to read a character and
+//   invert its case (upper to lower, lower to upper).
+//
+// Key Concepts:
+//   - Character Manipulation
+//   - isupper() Function
+//   - toupper() & tolower() Functions
+// =============================================
+
+#include <string>
+#include <iostream>
+using namespace std;
+
+char ReadChar()
+{
+	char S1;
+	cout << "Please Enter Your Char?\n";
+	cin >> S1;
+	return S1;
+}
+
+char Convert(char char1)
+{
+	return isupper(char1) ? tolower(char1) : toupper(char1);
+}
+
+
+int main()
+{
+	char S1 = ReadChar();
+	cout << "\n Char after inverting case: \n";
+	S1 = Convert(S1);
+	cout << S1 << endl;
+
+	
+	system("pause>0");
+}
+```
+</details>
+
+<details>
+<summary><b>Problem #28 — Invert All String Letters Case</b></summary>
+
+> **Task:** Write a program to read a string and invert the case of all its letters.
+
+```cpp
+// Description:
+//   Write a program to read a string and invert
+//   the case of all its letters.
+//
+// Key Concepts:
+//   - String Traversal
+//   - Character Manipulation
+//   - Case Inversion
+// =============================================
+
+#include <string>
+#include <iostream>
+using namespace std;
+
+string ReadString()
+{
+	string S1;
+	cout << "Please Enter Your string?\n";
+	getline(cin, S1);
+	return S1;
+}
+char InvertLetterCase(char char1)
+{
+	return isupper(char1) ? tolower(char1) : toupper(char1);
+}
+
+
+string InvertAllStringLettersCase(string S1)
+{
+	for (short i = 0; i < S1.length(); i++)
+	{
+		S1[i] = InvertLetterCase(S1[i]);
+	}
+	return S1;
+}
+
+
+
+int main()
+{
+	string S1 = ReadString();
+	cout << "\nString after Inverting All Letters Case:\n";
+	S1 = InvertAllStringLettersCase(S1);
+	cout << S1 << endl;
+
+
+	system("pause>0");
+}
+```
+</details>
+
+<details>
+<summary><b>Problem #29 — Count Capital/Small/All Letters</b></summary>
+
+> **Task:** Count capital letters, small letters, and total characters in a string using two methods: individual functions and an enum- based approach.
+
+```cpp
+// Description:
+//   Count capital letters, small letters, and
+//   total characters in a string using two
+//   methods: individual functions and an enum-
+//   based approach.
+//
+// Key Concepts:
+//   - String Character Analysis
+//   - isupper() / islower() Functions
+//   - Enums for Function Overloading
+//   - Default Parameters
+// =============================================
+
+#include <string>
+#include <iostream>
+#include <cctype>
+using namespace std;
+
+string ReadString()
+{
+	string S1;
+	cout << "Please Enter Your string?\n";
+	getline(cin, S1);
+	return S1;
+}
+
+enum EnWhatToCount { SmallLeters = 0, Capitalleters = 1, All = 3 };
+short CountLetters(string S1, EnWhatToCount WhatToCount = EnWhatToCount::All)
+{
+	if (WhatToCount == EnWhatToCount::All)
+	{
+		return S1.length();
+	}
+	short Counter = 0;
+	for (short i = 0; i < S1.length(); i++)
+	{
+		if (WhatToCount == EnWhatToCount::Capitalleters && isupper(S1[i]))
+		{
+			Counter++;
+		}
+		if (WhatToCount == EnWhatToCount::SmallLeters && islower(S1[i]))
+		{
+			Counter++;
+		}
+	}
+	return Counter;
+}
+int CountCapitalLetters(string S)
+{
+	int Count = 0;
+	for (int i = 0; i < S.length(); i++)
+	{
+		if ( isupper(S[i]))
+		{
+			Count++;
+		}
+	}
+	return Count;
+}
+
+int CountSammlLetters(string S)
+{
+	int Count = 0;
+	for (int i = 0; i < S.length(); i++)
+	{
+		if (islower(S[i]))
+		{
+			Count++;
+		}
+	}
+	return Count;
+}
+
+int main()
+{
+	string S1 = ReadString();
+	 //used first method
+	cout << "\n String Length= " << S1.length() << endl;
+
+	cout << "\n Capital Letters Count = " << CountCapitalLetters(S1) << endl;
+
+	cout << "\n Small Letters Count = " << CountSammlLetters(S1) << endl;
+
+	 //used secod method enum
+	cout << "\n\nMethod Enum 2\n";
+	cout << "\nString Length " << CountLetters(S1);
+	cout << "\nCapital letters count = " << CountLetters(S1, EnWhatToCount::Capitalleters); 			
+	cout << "\nSmall letters count = " << CountLetters(S1, EnWhatToCount::SmallLeters); 			
+
+	system("pause>0");
+}
+```
+</details>
+
+<details>
+<summary><b>Problem #30 — Count Specific Letter in String</b></summary>
+
+> **Task:** Count how many times a specific character appears in a given string.
+
+```cpp
+// Description:
+//   Count how many times a specific character
+//   appears in a given string.
+//
+// Key Concepts:
+//   - String Traversal
+//   - Character Comparison
+//   - Counting with Loops
+// =============================================
+
+#include <string>
+#include <iostream>
+using namespace std;
+
+string ReadString()
+{
+	string S1;
+	cout << "Please Enter Your String?\n";
+	getline(cin, S1);
+	return S1;
+}
+
+
+
+char ReadChar()
+{
+	char C1;
+	cout << "Please Enter Your Character?\n";
+	cin >> C1;
+	return C1;
+}
+
+
+short CountLetter(string S1, char C1)
+{
+	short count = 0;
+	for (short i = 0; i < S1.length(); i++)
+	{
+		if (S1[i] == C1)
+		{
+			count++;
+		}
+	}
+	return count;
+}
+
+int main()
+{
+	string S1 = ReadString();
+	char Ch1 = ReadChar();
+	cout << "\nLetter \'" << Ch1 << "\' Count = " <<
+		CountLetter(S1, Ch1);
+	system("pause>0");
+}
+```
+</details>
+
+---
+
 ## 🧠 Key Concepts Covered
 
 | Concept | Problems |
@@ -1353,6 +1954,9 @@ int main()
 | Search & Count | #15, #17, #18 |
 | Min/Max Algorithm | #19 |
 | Transposition | #07 |
+| Fibonacci Series | #21, #22 |
+| Recursion | #22 |
+| String & Character Manipulation | #23, #24, #25, #26, #27, #28, #29, #30 |
 
 ---
 
