@@ -1,0 +1,28 @@
+# Visual Studio Build and temporary folders
+.vs/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio user-specific or temporary files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.opendb
+*.db
+
+# Compiled files & output
+*.exe
+*.pdb
+*.ilk
+*.obj
+*.log
+*.tlog
+*.recipe
+*.ipch
+*.iobj
+*.ipdb
