@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Problem #36/Problem #36.vcxproj" Id="eff5029a-11ce-4c97-a70d-397151614cdb" />
+  <Project Path="Lesson #18 - VS Function Tips/Lesson #18 - VS Function Tips.vcxproj" />
 </Solution>

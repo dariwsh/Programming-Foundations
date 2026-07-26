@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Lesson #25 - String and Char Format (printf)/Lesson #25 - String and Char Format (printf).vcxproj" />
+</Solution>
