@@ -1,7 +1,7 @@
 # ========================
 # Visual Studio Files
 # ========================
-.vs/
+.vs
 *.suo
 *.user
 *.userosscache
