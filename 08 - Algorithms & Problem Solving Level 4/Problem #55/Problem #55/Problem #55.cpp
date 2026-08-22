@@ -1,4 +1,3 @@
-#pragma warning(disable : 4996)
 #include <iostream>
 using namespace std;
 struct stDate
@@ -109,7 +108,7 @@ bool IsBusinessDay(stDate Date)
 	*/
 	//shorter method is to invert the IsWeekEnd: this will save
 	//updating code.
-		return !IsWeekEnd(Date);
+	return !IsWeekEnd(Date);
 }
 short DaysUntilTheEndOfWeek(stDate Date)
 {
@@ -133,52 +132,83 @@ short DaysUntilTheEndOfYear(stDate Date1)
 	return GetDifferenceInDays(Date1, EndOfYearDate, true);
 }
 
-stDate GetSystemDate()
+stDate CalculateVacationDays(stDate DateFrom, short VacationDays)
+{
+	short WeekEndCount = 0;
+	while (IsWeekEnd(DateFrom))
+	{
+		DateFrom = IncreaseDateByOneDay(DateFrom);
+	}
+	for (short i = 1; i <= VacationDays + WeekEndCount; i++)
+	{
+		if (IsWeekEnd(DateFrom))
+		{
+			WeekEndCount++;
+		}
+		DateFrom = IncreaseDateByOneDay(DateFrom);
+
+	}
+	while (IsWeekEnd(DateFrom))
+	{
+		DateFrom = IncreaseDateByOneDay(DateFrom);
+
+	}
+	return DateFrom;
+}
+
+short ReadDay()
+{
+	short Day;
+	cout << "\nPlease enter a Day? ";
+	cin >> Day;
+	return Day;
+}
+
+short ReadMonth()
+{
+	short Month;
+	cout << "Please enter a Month? ";
+	cin >> Month;
+	return Month;
+}
+short ReadYear()
+{
+	short Year;
+	cout << "Please enter a Year? ";
+	cin >> Year;
+	return Year;
+}
+stDate ReadFullDate()
 {
 	stDate Date;
-	time_t t = time(0);
-	tm* now = localtime(&t);
-	Date.Year = now->tm_year + 1900;
-	Date.Month = now->tm_mon + 1;
-	Date.Day = now->tm_mday;
+	Date.Day = ReadDay();
+	Date.Month = ReadMonth();
+	Date.Year = ReadYear();
 	return Date;
 }
 
+short ReadVacationDays()
+{
+	short Days;
+	cout << "\nPlease enter vacation days? ";
+	cin >> Days;
+	return Days;
+}
 int main()
 {
-	stDate Date1 = GetSystemDate();
-	cout << "\nToday is " << DayShortName(DayOfWeekOrder(Date1))
-		<< " , "
-		<< Date1.Day << "/" << Date1.Month << "/" << Date1.Year <<
-		endl;
-	//---------------------
-	cout << "\nIs it End of Week?\n";
-	if (IsEndOfWeek(Date1))
-		cout << "Yes it is Saturday, it's of Week.";
-	else
-		cout << "No it's Not end of week.";
-	//---------------------
-	cout << "\n\nIs it Weekend?\n";
-	if (IsWeekEnd(Date1))
-		cout << "Yes it is a week end.";
-	else
-		cout << "No today is " <<
-		DayShortName(DayOfWeekOrder(Date1)) << ", Not a weekend.";
-	//---------------------
-	cout << "\n\nIs it Business Day?\n";
-	if (IsBusinessDay(Date1))
-		cout << "Yes it is a business day.";
-	else
-		cout << "No it is NOT a business day.";
-	//---------------------
-	cout << "\n\nDays until end of week : "
-		<< DaysUntilTheEndOfWeek(Date1) << " Day(s).";
-	//---------------------
-	cout << "\nDays until end of month : "
-		<< DaysUntilTheEndOfMonth(Date1) << " Day(s).";
-	//---------------------
-	cout << "\nDays until end of year : "
-		<< DaysUntilTheEndOfYear(Date1) << " Day(s).";
+	cout << "Vacation Starts:\n";
+	stDate DateFrom = ReadFullDate();
+
+	short VacationDays = ReadVacationDays();
+
+
+
+	stDate RetrunDate = CalculateVacationDays(DateFrom, VacationDays);
+
+	cout << "\n\n Return Date:" << (DayShortName(DayOfWeekOrder(DateFrom)))
+		<< RetrunDate.Day << "/" << RetrunDate.Month << "/" << RetrunDate.Year << endl;
+
+	
 	system("pause>0");
 	return 0;
 }
