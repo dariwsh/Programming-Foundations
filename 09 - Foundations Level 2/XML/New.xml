@@ -1,0 +1,16 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Library>
+    <Student>
+        <Name>Ahmed</Name>
+        <Age>20</Age>
+        <City>Cairo</City>
+    </Student>
+
+    <Book>
+        <Title>2000</Title>
+        <Author>Clean Code</Author>
+        <Price>30$</Price>
+    </Book>
+</Library>
