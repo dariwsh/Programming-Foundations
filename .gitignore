@@ -1,34 +1,43 @@
-# ========================
-# Visual Studio Files
-# ========================
-.vs/
+# ==========================================
+# Visual Studio / C++ / Build Output .gitignore
+# ==========================================
+
+# User-specific files & local settings
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
-*.shnx
-*.vcxproj
-*.vcxproj.filters
+*.suo
+*.VC.db
+*.VC.VC.opendb
+*.cachefile
+*.opensdf
+*.sdf
 
-# ========================
-# Build Results
-# ========================
+# Visual Studio directories
+.vs/
+.vscode/
+ipch/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Bb]uild/
+
+# Build Results & Architectures
 x64/
+x86/
+ARM/
+ARM64/
 Debug/
 Release/
-[Bb]uild/
-[Oo]ut/
+[Dd]ebug/
+[Rr]elease/
 
-# ========================
-# Project Files (auto-generated)
-# ========================
-*.vcxproj.user
+# Project temporary output from system("pause > 0")
+**/0
 0
 
-
-# ========================
-# Compiled Binaries
-# ========================
+# Compiled Binaries & Intermediates
 *.obj
 *.o
 *.exe
@@ -36,20 +45,26 @@ Release/
 *.lib
 *.pdb
 *.ilk
+*.exp
 *.log
 *.tlog
 *.idb
 *.pch
 *.ipch
+*.iobj
+*.ipdb
+*.res
+*.metagen
+*.manifest
 
-# ========================
-# Other
-# ========================
-*.opensdf
-*.sdf
-*.cachefile
-*.VC.db
-*.VC.VC.opendb
-ipch/
+# Visual Studio temporary files
+*.tmp
+*.temp
+*.bak
+
+# OS generated files
 Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
 .DS_Store
