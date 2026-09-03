@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="NestedCondtion/NestedCondtion.vcxproj" Id="8c018ff6-9f59-4fec-b52b-fd32b7f1c180" />
+</Solution>

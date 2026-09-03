@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="IFANDENUMS/IFANDENUMS.vcxproj" Id="ab3aa156-c72e-4bca-8e96-34cde05d5184" />
+</Solution>

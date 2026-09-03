@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Enums/Enums.vcxproj" Id="4d53b58c-09d5-4f3c-8fd3-d0769c1db5b5" />
+</Solution>

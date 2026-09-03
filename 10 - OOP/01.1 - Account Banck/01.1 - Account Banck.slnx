@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="01.1 - Account Banck/01.1 - Account Banck.vcxproj" />
+</Solution>

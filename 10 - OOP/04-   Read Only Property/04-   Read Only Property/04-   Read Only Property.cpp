@@ -3,12 +3,14 @@ using namespace std;
 class Preson
 {
 private:
+	int _ID = 2420226;
 	string _FirstName;
 	string _LastName;
 	short  _Age;
 
 
 public:
+
 	void setFirstName(string FirstName)
 	{
 		_FirstName = FirstName;
@@ -22,6 +24,12 @@ public:
 		_Age = Age;
 	}
 
+
+
+	int GetID()
+	{
+		return _ID;
+	}
 	string GetFirstName()
 	{
 		return _FirstName;
@@ -47,14 +55,17 @@ public:
 int main()
 {
 	Preson Person1;
-	Person1.setFirstName( " Ahmed ");
+	Person1.setFirstName(" Ahmed ");
 	Person1.setLastName("Darwish");
 	Person1.setAge(22);
 
+	// write only ID
+	cout << "ID        :" << Person1.GetID() << endl;
 	cout << "First Name:" << Person1.GetFirstName() << endl;
 	cout << "Last Name :" << Person1.GetLastName() << endl;
-	cout << " Age      :" << Person1.GetAge() << endl;
 	cout << "Full Name:" << Person1.GetFullName() << endl;
+	cout << "Age      :" << Person1.GetAge() << endl;
+
 	system("pause > 0");
 	return 0;
 }

@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="progectSmallSturcterandEnums/progectSmallSturcterandEnums.vcxproj" Id="b417d816-63e5-4c40-bd95-a6b071a99be7" />
+</Solution>

@@ -1,0 +1,60 @@
+# =======================================================
+# C++ & Visual Studio .gitignore
+# يتجاهل الكاش ونواتج البناء ويحافظ على ملفات المشروع
+# =======================================================
+
+# 1. إعدادات وكاش فيجوال ستوديو المؤقتة
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+*.vsidx
+slnx.sqlite
+Browse.VC.db
+Browse.VC.opendb
+
+# 2. مجلدات ونواتج الترجمة والبناء (Build Outputs)
+Debug/
+Release/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+build/
+*.tlog
+*.idb
+*.pdb
+*.ilk
+*.log
+*.obj
+*.exe
+*.out
+*.app
+*.recipe
+*.ipch
+
+# 3. ملفات النظام والملفات المؤقتة
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+*.tmp
+*.temp
+
+# =======================================================
+# ✅ استثناء ملفات المشروع الأساسية (للحفاظ عليها دائماً)
+# =======================================================
+!*.sln
+!*.slnx
+!*.vcxproj
+!*.vcxproj.filters
+!*.cpp
+!*.h
+!*.hpp
+!*.c
+!*.md

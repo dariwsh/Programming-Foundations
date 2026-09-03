@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Lesson #36 - Variable Scope Local vs Global Variables/Lesson #36 - Variable Scope Local vs Global Variables.vcxproj" />
+</Solution>

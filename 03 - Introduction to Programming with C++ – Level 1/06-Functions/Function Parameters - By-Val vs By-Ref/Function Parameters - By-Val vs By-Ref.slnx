@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Function Parameters - By-Val vs By-Ref/Function Parameters - By-Val vs By-Ref.vcxproj" Id="a5d35f9e-6eca-46a5-9f44-f7777a32d592" />
+</Solution>

@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="SwithcKeys/SwithcKeys.vcxproj" Id="4d2cb375-09e2-48a5-8c27-1ad3512c58d7" />
+</Solution>
