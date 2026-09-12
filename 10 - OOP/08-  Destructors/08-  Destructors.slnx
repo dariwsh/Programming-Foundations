@@ -1,7 +1,0 @@
-<Solution>
-  <Configurations>
-    <Platform Name="x64" />
-    <Platform Name="x86" />
-  </Configurations>
-  <Project Path="08-  Destructors/08-  Destructors.vcxproj" Id="ff105935-fee8-4c8d-813b-ce12f9b2c893" />
-</Solution>

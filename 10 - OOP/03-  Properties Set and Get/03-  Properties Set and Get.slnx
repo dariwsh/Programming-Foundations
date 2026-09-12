@@ -1,7 +1,0 @@
-<Solution>
-  <Configurations>
-    <Platform Name="x64" />
-    <Platform Name="x86" />
-  </Configurations>
-  <Project Path="03-  Properties Set and Get/03-  Properties Set and Get.vcxproj" />
-</Solution>

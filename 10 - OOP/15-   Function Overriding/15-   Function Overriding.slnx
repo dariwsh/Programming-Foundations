@@ -1,7 +1,0 @@
-<Solution>
-  <Configurations>
-    <Platform Name="x64" />
-    <Platform Name="x86" />
-  </Configurations>
-  <Project Path="15-   Function Overriding/15-   Function Overriding.vcxproj" />
-</Solution>

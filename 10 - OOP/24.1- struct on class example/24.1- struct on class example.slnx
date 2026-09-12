@@ -1,7 +1,0 @@
-<Solution>
-  <Configurations>
-    <Platform Name="x64" />
-    <Platform Name="x86" />
-  </Configurations>
-  <Project Path="24.1- struct on class example/24.1- struct on class example.vcxproj" />
-</Solution>

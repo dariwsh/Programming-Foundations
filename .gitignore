@@ -13,6 +13,11 @@
 *.cachefile
 *.opensdf
 *.sdf
+*.slnx
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.vcxproj.userosscache
 
 # Visual Studio directories
 .vs/

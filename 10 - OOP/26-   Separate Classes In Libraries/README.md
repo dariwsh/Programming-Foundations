@@ -2,14 +2,19 @@
 
 <div align="center">
   <h3>⚡ C++ Object-Oriented Programming Series ⚡</h3>
-  <p>
+  <p align="center">
     <a href="#english-version">
-      <img src="https://img.shields.io/badge/Language-English-blue?style=for-the-badge&logo=googletranslate&logoColor=white" alt="English">
+      <img src="https://img.shields.io/badge/Language-English-blue?style=for-the-badge&logo=readme&logoColor=white" alt="English">
     </a>
     &nbsp;&nbsp;
     <a href="#arabic-version">
-      <img src="https://img.shields.io/badge/اللغة-العربية-green?style=for-the-badge&logo=googletranslate&logoColor=white" alt="العربية">
+      <img src="https://img.shields.io/badge/Language-Arabic-green?style=for-the-badge&logo=readme&logoColor=white" alt="Arabic">
     </a>
+  </p>
+  <p align="center">
+    <a href="#english-version">🇬🇧 <b>Switch to English</b></a>
+    &nbsp;&nbsp;•&nbsp;&nbsp;
+    <a href="#arabic-version">🇪🇬 <b>التبديل إلى النسخة العربية</b></a>
   </p>
 </div>
 
