@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="20-   Static Early Binding vs Dynamic Late Binding/20-   Static Early Binding vs Dynamic Late Binding.vcxproj" />
+</Solution>
