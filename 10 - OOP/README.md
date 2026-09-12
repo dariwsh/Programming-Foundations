@@ -3,7 +3,13 @@
 <div align="center">
   <h3>✨ Comprehensive Roadmap, Practical Projects & Clean Architecture ✨</h3>
   <p>
-    <b>🌐 Language / اللغة:</b> <b>English</b> (Default) | <i>اضغط على الزر القابل للطي بالأسفل للتبديل إلى اللغة العربية</i>
+    <a href="#english-version">
+      <img src="https://img.shields.io/badge/Language-English-blue?style=for-the-badge&logo=googletranslate&logoColor=white" alt="English">
+    </a>
+    &nbsp;&nbsp;
+    <a href="#arabic-version">
+      <img src="https://img.shields.io/badge/اللغة-العربية-green?style=for-the-badge&logo=googletranslate&logoColor=white" alt="العربية">
+    </a>
   </p>
 </div>
 
@@ -39,6 +45,8 @@
 </details>
 
 ---
+
+<span id="english-version"></span>
 
 ## 📘 Course Overview (English)
 
@@ -87,6 +95,8 @@ Welcome to **Course 10 - Object-Oriented Programming (OOP) in C++**! This reposi
 | P1 | [Project 1 - Stateful Calculator](./Project%201%20Calculator/README.md) | `clsCalculator` with full `Undo` capability | 🚀 Major Project |
 
 ---
+
+<span id="arabic-version"></span>
 
 <details>
 <summary><b>🌍 🇪🇬 الفهرس والشرح باللغة العربية (اضغط هنا للتبديل للعربية)</b></summary>

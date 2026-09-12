@@ -3,7 +3,13 @@
 <div align="center">
   <h3>⚡ C++ Object-Oriented Programming Series ⚡</h3>
   <p>
-    <b>🌐 Language / اللغة:</b> <b>English</b> (Default) | <i>اضغط على الزر القابل للطي بالأسفل للتبديل إلى اللغة العربية</i>
+    <a href="#english-version">
+      <img src="https://img.shields.io/badge/Language-English-blue?style=for-the-badge&logo=googletranslate&logoColor=white" alt="English">
+    </a>
+    &nbsp;&nbsp;
+    <a href="#arabic-version">
+      <img src="https://img.shields.io/badge/اللغة-العربية-green?style=for-the-badge&logo=googletranslate&logoColor=white" alt="العربية">
+    </a>
   </p>
 </div>
 
@@ -39,6 +45,8 @@
 </details>
 
 ---
+
+<span id="english-version"></span>
 
 ## 📘 Lesson Documentation (English)
 
@@ -116,6 +124,8 @@ int main() {
 </details>
 
 ---
+
+<span id="arabic-version"></span>
 
 <details>
 <summary><b>🌍 🇪🇬 التوثيق والشرح باللغة العربية (اضغط هنا للتبديل إلى الشرح بالعربي)</b></summary>
