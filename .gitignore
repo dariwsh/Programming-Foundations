@@ -7,15 +7,11 @@
 *.user
 *.userosscache
 *.sln.docstates
-*.suo
 *.VC.db
 *.VC.VC.opendb
 *.cachefile
 *.opensdf
 *.sdf
-*.slnx
-*.vcxproj
-*.vcxproj.filters
 *.vcxproj.user
 *.vcxproj.userosscache
 
