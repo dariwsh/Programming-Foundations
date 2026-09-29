@@ -1,0 +1,28 @@
+# Visual Studio temporary & build files
+.vs/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+
+# Build outputs
+*.exe
+*.out
+*.app
+*.pdb
+*.idb
+*.ilk
+*.obj
+*.tlog
+*.recipe
+*.log
+*.dt.d.json
+*.dt.module.json
+*.dt.module.json.command
+
+# Visual Studio User Settings
+*.vcxproj.user
+*.suo
+*.user
