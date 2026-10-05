@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="08-   Doubly Linked List Implementation/08-   Doubly Linked List Implementation.vcxproj" />
+</Solution>

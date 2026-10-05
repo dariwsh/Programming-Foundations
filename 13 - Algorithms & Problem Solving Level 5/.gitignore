@@ -1,0 +1,14 @@
+# Visual Studio build & temp folders
+.vs/
+x64/
+Debug/
+Release/
+*.obj
+*.exe
+*.pdb
+*.user
+*.idb
+*.tlog
+*.log
+*.sdf
+*.opensdf

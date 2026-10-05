@@ -1,7 +1,0 @@
-<Solution>
-  <Configurations>
-    <Platform Name="x64" />
-    <Platform Name="x86" />
-  </Configurations>
-  <Project Path="07-  Stack Swap/07-  Stack Swap.vcxproj" Id="ab2bfdcd-dd39-468b-9871-0133c476885c" />
-</Solution>

@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="10-   Operations - Find Node Double/10-   Operations - Find Node Double.vcxproj" />
+</Solution>
