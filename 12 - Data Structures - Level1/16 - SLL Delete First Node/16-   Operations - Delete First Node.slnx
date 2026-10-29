@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="16-   Operations - Delete First Node/16-   Operations - Delete First Node.vcxproj" />
+</Solution>
