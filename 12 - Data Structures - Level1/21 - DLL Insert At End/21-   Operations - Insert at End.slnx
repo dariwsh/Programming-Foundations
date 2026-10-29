@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="21-   Operations - Insert at End/21-   Operations - Insert at End.vcxproj" />
+</Solution>

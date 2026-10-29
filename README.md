@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Courses-11-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Courses-12-blue?style=flat-square" />
   <img src="https://img.shields.io/badge/Problems%20Solved-260%2B-success?style=flat-square" />
   <img src="https://img.shields.io/badge/Projects-40%2B-orange?style=flat-square" />
   <img src="https://img.shields.io/github/last-commit/dariwsh/Programming-Foundations?style=flat-square" />
@@ -61,6 +61,12 @@ Every course has its own folder and its own `README.md` with a full index of les
 | 10 | [OOP as it Should Be](10%20-%20OOP) | 33 lessons — classes, inheritance, polymorphism, abstraction, libraries | ✅ |
 | 11 | [OOP as it Should Be — Applications](11-%20Opp%20Applications) | 32 steps — full OOP Bank System with users, permissions, login & currency exchange | ✅ |
 
+### 🧱 Data Structures
+
+| # | Course | Content | Status |
+|:-:|--------|---------|:------:|
+| 12 | [Data Structures — Level 1](12%20-%20Data%20Structures%20-%20Level1) | 26 lessons — STL stack, queue & map, singly and doubly linked lists, unions | ✅ |
+
 ### 🌐 Foundations
 
 | # | Course | Content | Status |
@@ -73,7 +79,7 @@ Every course has its own folder and its own `README.md` with a full index of les
 |:-:|--------|---------|:------:|
 | 15 | [Database Level 1 — SQL](15%20-%20Database%20Level%201%20-%20SQL) | 88 lessons — ERD, relational schema, SQL Server, joins, constraints, normalization | ✅ |
 
-> 📝 Courses **01, 02 and 12** in the roadmap are theory-only, so they have no code in this repository.
+> 📝 Courses **01 and 02** in the roadmap are theory-only, so they have no code in this repository.
 
 ---
 
@@ -89,7 +95,8 @@ flowchart LR
     F --> G["09 · Foundations 2"]
     G --> H["10 · OOP"]
     H --> I["11 · OOP Applications"]
-    I --> J["13 · Problem Solving 5"]
+    I --> L["12 · Data Structures 1"]
+    L --> J["13 · Problem Solving 5"]
     J --> K["15 · Database & SQL"]
 ```
 
