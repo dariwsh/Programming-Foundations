@@ -69,3 +69,17 @@ ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 .DS_Store
+
+# JetBrains (IntelliJ IDEA / CLion)
+.idea/
+
+# Java build output
+*.class
+
+# draw.io backup & temp files
+*.drawio.bkp
+*.drawio.dtmp
+.$*
+
+# SQL Server Management Studio
+*.ssmssqlproj.user

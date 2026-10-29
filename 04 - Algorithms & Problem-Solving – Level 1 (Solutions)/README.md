@@ -1,14 +1,18 @@
-[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github)](https://github.com/aboHuhaed)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000?style=for-the-badge&logo=web)](https://aboHuhaed.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/ahmed-dawrish)
+<h1 align="center">🧠 Algorithms & Problem Solving — Level 1</h1>
 
-## Problem Solving Level 4
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+  <img src="https://img.shields.io/badge/Problems-48%20Solved-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge" />
+</p>
+
+## Overview
 
 A comprehensive collection of 48 C++ problem-solving exercises covering fundamental programming concepts — from basic I/O and conditionals to loops, functions, enums, and math algorithms.
 
 ```mermaid
 mindmap
-  root((Problem Solving Level 4))
+  root((Problem Solving Level 1))
     Input_Output
       Lesson-01To05 - Basic I-O
       Lesson-05 - Hiring Check
@@ -191,3 +195,7 @@ Area = (circumference²) / (4π). Derive radius from circumference first: r = C 
 
 A **sentinel** is a special value (like `-99`) that signals the loop to stop. It's used when you don't know the number of inputs in advance.
 </details>
+
+---
+
+<p align="center"><a href="../README.md">⬅️ Back to all courses</a></p>
